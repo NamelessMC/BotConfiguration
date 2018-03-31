@@ -10,7 +10,7 @@
     "```",
     "<Directory /var/www/html>\n",
     "\tAllowOverride All\n",
-    "</Directory>\n",
+    "</Directory>```\n",
     "3. Save and exit the file\n",
     "4. Type ``sudo a2enmod rewrite`` to enable Apache's rewrite module\n",
     "5. Type ``sudo service apache2 restart`` to restart Apache\n"
