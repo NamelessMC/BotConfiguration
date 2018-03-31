@@ -6,7 +6,7 @@
     "If this is not the case, you will need to modify your server configuration to enable the use of .htaccess files and also Apache's mod_rewrite module.\n\n",
     "Usually this occurs if you are running Apache on Ubuntu/Debian, in which case the following should resolve your issue:\n",
     "1. Edit **/etc/apache2/sites-available/000-default.conf** (or whichever conf file corresponds to your Nameless installation)\n",
-    "2. Before the bottom ``</VirtualHost>``, add (but **replace** /var/www/html with the directory Nameless is installed in):\n"
+    "2. Before the bottom ``</VirtualHost>``, add (but **replace** /var/www/html with the directory Nameless is installed in):\n",
     "```",
     "<Directory /var/www/html>\n",
     "\tAllowOverride All\n",
