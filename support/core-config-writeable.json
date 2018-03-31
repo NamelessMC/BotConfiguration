@@ -1,0 +1,9 @@
+{
+  "title": "Core/config.php not Writeable",
+  "body": [
+    "**Error:**\n",
+    "Your core/config.php file is not writeable. Please check your file permissions.\n\n",
+    "**Solution:**\n",
+    "Check the file permissions on the ``core/config.php`` file and make sure it is set to ``775``. If you don't know how to change the file permissions, google it."
+  ]
+}
