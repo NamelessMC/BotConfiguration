@@ -2,7 +2,7 @@
   "title": "Adding a Favicon",
   "body": [
     "1. Make sure your favicon is named ``favicon.ico`` (note the .ico format - don't rename a .png to a .ico for example)\n",
-    "2. Upload the favicon to the /core/assets directory.",
-    "3. If you still can't see it on the site, try forcing a browser cache refresh by viewing your site and pressing ``Ctrl + F5``"
+    "2. Upload the favicon to the /core/assets directory.\n",
+    "3. If you still can't see it on the site, try forcing a browser cache refresh by viewing your site and pressing ``Ctrl + F5``\n"
   ]
 }
