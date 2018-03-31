@@ -1,5 +1,6 @@
 {
   "parameters": [
+    "v1/homepage-pic",
     "test",
     "install-404"
   ]
