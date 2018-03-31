@@ -1,7 +1,8 @@
 {
   "parameters": [
     "v1/homepage-pic",
-    "test",
-    "install-404"
+    "v2/upgrade-v1",
+    "install-404",
+    "test"
   ]
 }
