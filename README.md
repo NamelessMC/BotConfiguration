@@ -14,3 +14,5 @@ To add a parameter to the support command, follow these simple instructions:
   ]
 }
 ```
+
+Note: If you want to be version specific (ex. v1 or v2) place the json file in the version it corresponds with. (ex. `/support/v1/<parameter>.json`) The `/support/parameters.json` will require `v1/test` if a test.json is in the `/support/v1` directory.
