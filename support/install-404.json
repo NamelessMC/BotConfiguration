@@ -2,7 +2,7 @@
   "title": "Installer 404",
   "body": [
     "One possibility is that you've installed NamelessMC within a subdirectory, you only can do this on v2. A requirement for the package to function is that the files are installed directly into your root directory, or you use a subdomain to point to the subdirectory.\n\n",
-    "Ensure a file named ".htaccess" exists in your web server's root directory containing [these rules](https://raw.githubusercontent.com/NamelessMC/Nameless/master/.htaccess).\n\n",
+    "Ensure a file named \".htaccess\" exists in your web server's root directory containing [these rules](https://raw.githubusercontent.com/NamelessMC/Nameless/master/.htaccess).\n\n",
     "If this is not the case, you will need to modify your server configuration to enable the use of .htaccess files and also Apache's mod_rewrite module.\n\n",
     "Usually this occurs if you are running Apache on Ubuntu/Debian, in which case the following should resolve your issue:\n",
     "1. Edit **/etc/apache2/sites-available/000-default.conf** (or whichever conf file corresponds to your Nameless installation)\n",
