@@ -8,7 +8,9 @@ To add a parameter to the support command, follow these simple instructions:
 3. Have the following JSON in the file:
 ```
 {
-  "title": "<The title of embed>",
-  "body": "<The body text of the embed, use \n for new line>"
+  "title": "The title of embed",
+  "body": [
+    "The body text of the embed, use \n for new line."
+  ]
 }
 ```
