@@ -1,13 +1,13 @@
 {
   "commands": [
     {
-      "command": "test",
+      "aliases": ["test", "aliastest"],
       "description": "A simple test command",
       "type": "basic",
       "hidden": false
     },
     {
-      "command": "support",
+      "aliases": ["support"],
       "description": "Get quick support for NamelessMC",
       "type": "argdir",
       "hidden": false
