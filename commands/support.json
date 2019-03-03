@@ -1,0 +1,13 @@
+{
+  "title": "NamelessMC Support",
+  "footer": false,
+  "body": false,
+  "parameters": [
+    "v1/homepage-pic",
+    "v2/eta",
+    "v2/upgrade-v1",
+    "core-config-writeable",
+    "favicon",
+    "install-404"
+  ]
+}
