@@ -1,7 +1,7 @@
 {
   "title": "NamelessMC Support",
-  "footer": false,
-  "body": false,
+  "footer": null,
+  "body": null,
   "parameters": [
     "v1/homepage-pic",
     "v2/eta",

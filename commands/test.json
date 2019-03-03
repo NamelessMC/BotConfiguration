@@ -1,6 +1,6 @@
 {
   "title": "Testing 123",
-  "footer": false,
+  "footer": null,
   "body": [
     "Just a basic test command."
   ]
