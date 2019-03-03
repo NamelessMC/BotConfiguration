@@ -1,5 +1,6 @@
 {
   "title": "Installer 404",
+  "footer": "",
   "body": [
     "Problem 1: One possibility is that you've installed NamelessMC within a subdirectory, you only can do this on v2. A requirement for the package to function is that the files are installed directly into your root directory, or you use a subdomain to point to the subdirectory.\n\n",
     "Problem 2: Ensure a file named \".htaccess\" exists in your web server's root directory containing [these rules](https://raw.githubusercontent.com/NamelessMC/Nameless/master/.htaccess).\n\n",
