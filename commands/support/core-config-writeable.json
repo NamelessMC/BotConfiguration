@@ -1,5 +1,6 @@
 {
   "title": "Core/config.php not Writeable",
+  "footer": "",
   "body": [
     "**Error:**\n",
     "Your core/config.php file is not writeable. Please check your file permissions.\n\n",

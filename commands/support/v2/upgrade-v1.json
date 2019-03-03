@@ -1,5 +1,6 @@
 {
   "title": "Upgrade from v1",
+  "footer": "",
   "body": [
     "These versions are **not** for public sites.",
     "If you want to upgrade from v1, follow the instructions below. Please note, once you install v2, you **can not** downgrade to v1 so make sure you have a backup.\n\n",
