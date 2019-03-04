@@ -1,0 +1,11 @@
+{
+  "title": "NamelessMC FAQ",
+  "footer": "",
+  "body": "",
+  "parameters": [
+    "install-404",
+	"install-404-nginx",
+	"plugin-download",
+	"white-screen"
+  ]
+}

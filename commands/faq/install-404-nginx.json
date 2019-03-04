@@ -1,0 +1,11 @@
+{
+  "title": "Installer 404 (Nginx)",
+  "footer": "",
+  "body": [
+    "You need to make sure your nginx configuration file matches the [example configuration file](https://github.com/NamelessMC/Nameless/blob/master/nginx-non-ssl.example) provided by Nameless, specifically the\n",
+	"```location / {\n",
+	"	try_files $uri $uri/ /index.php?$args;",
+	"}```",
+	"block."
+  ]
+}
