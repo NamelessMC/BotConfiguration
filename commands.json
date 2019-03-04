@@ -12,6 +12,12 @@
       "type": "code",
       "hidden": true
     },
+	{
+      "aliases": ["faq"],
+      "description": "Get help with some frequently asked questions",
+      "type": "argdir",
+      "hidden": false
+    },
     {
       "aliases": ["support"],
       "description": "Get quick support for NamelessMC",
