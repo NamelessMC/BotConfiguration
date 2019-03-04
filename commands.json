@@ -6,6 +6,12 @@
       "type": "basic",
       "hidden": false
     },
+	{
+      "aliases": ["codetest"],
+      "description": "A command to test the code command type",
+      "type": "code",
+      "hidden": true
+    },
     {
       "aliases": ["support"],
       "description": "Get quick support for NamelessMC",
