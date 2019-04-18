@@ -1,0 +1,10 @@
+
+{
+  "title": "Force HTTPS",
+  "footer": "",
+  "body": [
+    "In order to force HTTPS on your v2 website you have to have a valid SSL certificate.\n",
+    "To check if your ssl certificate is valid you can go to https://yoursite.com and check if it says \"Secure Connection\" when clicking on the lock in the url bar.\n\n",
+    "If you get an error after enabling force HTTPS you can disable it by deleting `cache/033f3da34ae9ec9661072ab0897ddf7ed642de3f.cache` file."
+  ]
+}

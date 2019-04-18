@@ -3,10 +3,14 @@
   "footer": "",
   "body": "",
   "parameters": [
+    "v1/favicon",
     "v1/homepage-pic",
+    "v2/discord-widget",
     "v2/eta",
+    "v2/favicon",
+    "v2/force-https",
+    "v2/friendly-urls",
     "v2/upgrade-v1",
-    "core-config-writeable",
-    "favicon"
+    "core-config-writeable"
   ]
 }
