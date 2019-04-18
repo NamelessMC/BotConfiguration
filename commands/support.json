@@ -8,6 +8,9 @@
     "v2/favicon",
     "v2/eta",
     "v2/upgrade-v1",
+    "v2/force-https",
+    "v2/friendly-urls",
+    "v2/discord-widget",
     "core-config-writeable"
   ]
 }
