@@ -4,9 +4,10 @@
   "body": "",
   "parameters": [
     "v1/homepage-pic",
+    "v1/favicon",
+    "v2/favicon",
     "v2/eta",
     "v2/upgrade-v1",
-    "core-config-writeable",
-    "favicon"
+    "core-config-writeable"
   ]
 }
