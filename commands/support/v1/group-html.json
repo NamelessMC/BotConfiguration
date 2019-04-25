@@ -1,0 +1,11 @@
+{
+  "title": "Group HTML | v1",
+  "footer": "",
+  "body": [
+    "Group HTML is HTML code that describes how your group will look like on pages like your profile, forum posts, etc.\n",
+    "You can either use custom images for your group tag with `<img src=\"path/to/image.png\" alt=\"Group Tag\" width=\"200\" height=\"50\">` html tag or you can use `<span class=\"label label-danger\">Name</span>` html tag with Bootstrap's default label classes to get simple colored group tag.\n",
+    "Bootstrap class that defines color looks like this `label-default`, you can change the color by changing the 2nd part of that class with one of the following Bootstrap's default colors. `default`, `primary`, `success`, `info`, `warning` & `danger`.\n\n",
+    "If you wish to use custom color for your label you can do that by using this `<span class=\"label\" style=\"color: #fff; background-color: #ff0000;\">Name</span>` html code.\n",
+    "And replacing `#ff0000` with the hex code of a color of your choice. You can get hex codes of a color by using [this](https://www.google.com/search?q=color+picker) tool."
+  ]
+}
