@@ -6,6 +6,7 @@
     "You can check if `mod_rewrite` is enabled by going to http://yoursite.com/rewrite_test if it says \"Rewrite Enabled\" you're good to go.\n",
     "If not, contact your web host and ask them to enable `mod_rewrite`, or if you're using a vps or a dedicated server, Google information on how to enable `mod_rewrite` on your specific OS.\n\n",
     "As well make sure you have `.htaccess` file in your root directory, `.htaccess` files are hidden so make sure you have hidden file view enabled on your file manager or ftp client.\n",
-    "Your `.htaccess` file should contain [these rules](https://raw.githubusercontent.com/NamelessMC/Nameless/v2/.htaccess)."
+    "Your `.htaccess` file should contain [these rules](https://raw.githubusercontent.com/NamelessMC/Nameless/v2/.htaccess).\n\n",
+    "To disable friendly urls, go to `core/config.php` and change \"friendly_urls\" from `true` to `false`."
   ]
 }
