@@ -1,0 +1,7 @@
+{
+  "title": "News Topics Character Limit",
+  "footer": "",
+  "body": [
+    "To edit the character limit on your homepage topics, edit [this](https://github.com/NamelessMC/Nameless/blob/v2/core/classes/Util.php#L368) line and change the `750` value to the value you wish."
+  ]
+}
