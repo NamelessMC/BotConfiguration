@@ -15,6 +15,7 @@
     "v2/group-html",
     "v2/news-char-limit",
     "v2/news",
+    "v2/profile-groups",
     "v2/upgrade-v1",
     "core-config-writeable"
   ]
