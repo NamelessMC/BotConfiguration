@@ -1,0 +1,13 @@
+{
+  "title": "Profile Groups | v2",
+  "footer": "",
+  "body": [
+    "By default on NamelessMC v2 profiles, it only displays the primary group, but you can change that by doing the following.\n",
+    "Go to `custom/templates/(template)/profile.tpl`, find `{$GROUP}` and replace it with the code below.\n",
+    "```",
+    "{foreach from=$GROUPS item=item}\n",
+    "\t{$item}\n",
+    "{/foreach}",
+    "```"
+  ]
+}
