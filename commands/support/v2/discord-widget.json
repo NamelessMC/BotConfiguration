@@ -3,9 +3,9 @@
   "title": "Discord Widget",
   "footer": "",
   "body": [
-    "To enable Disocrd Widget you have to go to `StaffCP > Configuration > Social Media` and add your Discord Server ID, then go to `StaffCP > Layout > Widgets` and enable Discord Widget.\n",
-    "After enabling Discord Widget click \"edit\" button and toggle pages you want your widget to appear on.\n",
-    "As well make sure you have Discord Widget enabled in your Discord server settings.\n\n",
+    "To enable the Disocrd Widget you have to go to `StaffCP > Configuration > Social Media` and add your Discord Server ID, then go to `StaffCP > Layout > Widgets` and enable the Discord Widget.\n",
+    "After enabling the Discord Widget click \"edit\" button and toggle pages you want your widget to appear on.\n",
+    "As well make sure you have the Discord Widget enabled in your Discord server settings.\n\n",
     "If you get an error after setting up your Discord widget that says \"The widget is disabled for the specified Discord server...\" go to `/modules/Core/widgets/DiscordWidget.php`, delete everything inside and replace it with [this](https://gist.githubusercontent.com/samerton/413f1925167079d42f8ec8a55875bd4f/raw/05501afd1f266de57d6987e58cf1733c5872c0cd/DiscordWidget.php)."
   ]
 }
