@@ -4,6 +4,7 @@
   "body": [
     "1. Make sure your favicon is named `favicon.ico` (note the .ico format - for example don't rename a .png to a .ico)\n",
     "2. Upload the favicon to the /core/assets directory.\n",
-    "3. If you still can't see it on the site, try forcing a browser cache refresh by viewing your site and pressing `Ctrl + F5` on windows or `Cmd + Shift + R` on macos."
+    "3. If you still can't see it on your website, try forcing a browser cache refresh by viewing your site and pressing `Ctrl + F5` on windows or `Cmd + Shift + R` on macos.\n",
+    "And if you're using Cloudflare, don't forget to purge cache there as well."
   ]
 }
