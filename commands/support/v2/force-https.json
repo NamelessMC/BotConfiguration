@@ -5,7 +5,7 @@
   "body": [
     "In order to force HTTPS on your v2 website you have to have a valid SSL certificate.\n",
     "To check if your SSL certificate is valid you can go to `https://yoursite.com` and check if it says \"Secure Connection\" when clicking on the lock in the url bar.\n\n",
-    "Force HTTPS does not work with Cloudflare \"Flexible\" SSL, if you do not have a valid SSL certificate on your web host or a vps, then you can force HTTPS with Cloudflare \"Flexible\" SSL in Cloudflare Crypto section.\n",
+    "Force HTTPS does not work with Cloudflare \"Flexible\" SSL, if you do not have a valid SSL certificate on your web host or a vps, then you can force HTTPS with Cloudflare \"Flexible\" SSL in Cloudflare \"Crypto\" section.\n",
     "If you do have Cloudflare SSL set to \"Flexible\" and you have a valid SSL certificate on your web host or a vps, then you have to set your Cloudflare SSL to \"Full\" in order to use force HTTPS function in NamelessMC.\n\n",
     "If you get an error after enabling force HTTPS you can disable it by deleting `cache/033f3da34ae9ec9661072ab0897ddf7ed642de3f.cache` file."
   ]
