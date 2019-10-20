@@ -1,5 +1,5 @@
 {
-  "title": "Core/config.php not Writeable",
+  "title": "'core/config.php' is not writeable",
   "footer": "",
   "body": [
     "**Error:**\n",
