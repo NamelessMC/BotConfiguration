@@ -17,6 +17,6 @@
     "v2/news-char-limit",
     "v2/news",
     "v2/upgrade-v1",
-    "core-config-writeable"
+    "core-config-writable"
   ]
 }
