@@ -29,12 +29,6 @@
       "description": "A simple test command",
       "type": "basic",
       "hidden": true
-    },
-    {
-      "aliases": ["cpk2"],
-      "description": "no u",
-      "type": "basic",
-      "hidden": true
     }
   ]
 }
