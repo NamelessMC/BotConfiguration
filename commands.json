@@ -23,12 +23,6 @@
       "description": "Get quick support for NamelessMC",
       "type": "argdir",
       "hidden": false
-    },
-	{
-      "aliases": ["test", "aliastest"],
-      "description": "A simple test command",
-      "type": "basic",
-      "hidden": true
     }
   ]
 }
