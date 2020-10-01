@@ -7,12 +7,6 @@
       "hidden": true
     },
 	{
-      "aliases": ["codetest"],
-      "description": "A command to test the code command type",
-      "type": "code",
-      "hidden": true
-    },
-	{
       "aliases": ["faq"],
       "description": "Get help with some frequently asked questions",
       "type": "argdir",
