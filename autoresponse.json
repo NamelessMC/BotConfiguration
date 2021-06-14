@@ -5,7 +5,6 @@
             "title": "Friendly Urls",
             "footer": "test",
             "body": [
-                "Hello %user%\n\n",
                 "In order to use friendly urls on your v2 website, your web server has to allow the use of `.htaccess` files and you have to have `mod_rewrite` enabled.\n\n",
                 "You can check if `mod_rewrite` is enabled by going to http://yoursite.com/rewrite_test if it says \"Rewrite Enabled\" you're good to go.\n",
                 "If not, contact your web host and ask them to enable `mod_rewrite`, or if you're using a vps or a dedicated server, Google information on how to enable `mod_rewrite` on your specific OS.\n\n",
@@ -21,7 +20,6 @@
             "title": "Incompatible module",
             "footer": "test",
             "body": [
-                "Hello %user%!\n\n",
                 "It seems like the module you are trying to enable is **not compatible** with your template! You can do 2 things:\n\n",
                 "- Ask the developer of the template you use to add compatibility for it\n",
                 "- Use a different template that is compatible"
