@@ -3,6 +3,7 @@
         "keywords": ["The requested URL was not found on this server."],
         "response": {
             "title": "Friendly Urls",
+            "footer": "test",
             "body": [
                 "Hello %user%\n\n",
                 "In order to use friendly urls on your v2 website, your web server has to allow the use of `.htaccess` files and you have to have `mod_rewrite` enabled.\n\n",
@@ -18,6 +19,7 @@
         "keywords": ["Unable to enable incompatible module."],
         "response": {
             "title": "Incompatible module",
+            "footer": "test",
             "body": [
                 "Hello %user%!\n\n",
                 "It seems like the module you are trying to enable is **not compatible** with your template! You can do 2 things:\n\n",
