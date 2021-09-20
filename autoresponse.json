@@ -1,0 +1,12 @@
+[
+    {
+        "keywords": ["hello world"],
+        "response": {
+            "title": "Hi",
+            "footer": "",
+            "body": [
+                "Uh...hello?"
+            ]
+        }
+    }
+]
