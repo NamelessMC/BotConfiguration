@@ -1,9 +1,22 @@
 [
     {
+        "keywords": ["how", "upload", "favicon"],
+        "response": {
+            "title": "Adding a Favicon to v2",
+            "footer": "",
+            "body": [
+                "1. Make sure your favicon is named `favicon.ico` (note the .ico format - for example don't rename a .png to a .ico)\n",
+                "2. Upload the favicon to the root directory. (public_html, htdocs or /var/www/html)\n",
+                "3. If you still can't see it on your website, try forcing a browser cache refresh by viewing your site and pressing `Ctrl + F5` on windows or `Cmd + Shift + R` on macos.\n",
+                "And if you're using Cloudflare, don't forget to purge cache there as well."
+            ]
+        }
+    },
+    {
         "keywords": ["The requested URL was not found on this server."],
         "response": {
             "title": "Friendly Urls",
-            "footer": "test",
+            "footer": "",
             "body": [
                 "In order to use friendly urls on your v2 website, your web server has to allow the use of `.htaccess` files and you have to have `mod_rewrite` enabled.\n\n",
                 "You can check if `mod_rewrite` is enabled by going to http://yoursite.com/rewrite_test if it says \"Rewrite Enabled\" you're good to go.\n",
@@ -18,12 +31,20 @@
         "keywords": ["Unable to enable incompatible module."],
         "response": {
             "title": "Incompatible module",
-            "footer": "test",
+            "footer": "",
             "body": [
                 "It seems like the module you are trying to enable is **not compatible** with your template! You can do 2 things:\n\n",
                 "- Ask the developer of the template you use to add compatibility for it\n",
                 "- Use a different template that is compatible"
             ]
+        }
+    },
+    {
+        "keywords": ["invalid api method"],
+        "response": {
+            "title": "Invalid api method",
+            "footer": "",
+            "body": ["The error `invalid api method` means that the way the enpoint was requested is not supported. This does **NOT** mean that the API is broken, it actually confirms that it IS working. This likely happened because you visited your API URL and got this error. When copy pasting the API URL into a browser, you are not specifying an API method, so the error is correct."]
         }
     }
 ]
