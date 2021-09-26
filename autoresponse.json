@@ -60,5 +60,15 @@
                 "Most panel templates in the resources page at this time don't support most modules, so you should either wait for the support to be added or use the \"Default\" panel template instead."
             ]
         }
+    },
+    {
+        "keywords": ["change", "prefix", "bot"],
+        "response": {
+            "title": "Change the command prefix of the Nameless Link Discord bot",
+            "footer": "",
+            "body": [
+                "To change the prefix of the Nameless Link discord bot, run `!prefix <server id> <new prefix>`. Use `reset` to use the default prefix."
+            ]
+        }
     }
 ]
