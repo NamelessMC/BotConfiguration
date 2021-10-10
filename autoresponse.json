@@ -13,7 +13,7 @@
         }
     },
     {
-        "keywords": ["The requested URL was not found on this server."],
+        "keywords": ["The requested URL was not found on this server"],
         "response": {
             "title": "Friendly Urls",
             "footer": "",
@@ -28,7 +28,7 @@
         }
     },
     {
-        "keywords": ["Unable to enable incompatible module."],
+        "keywords": ["Unable to enable incompatible module"],
         "response": {
             "title": "Incompatible module",
             "footer": "",
