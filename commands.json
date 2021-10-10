@@ -17,12 +17,6 @@
       "description": "Get quick support for NamelessMC",
       "type": "argdir",
       "hidden": false
-    },
-	{
-      "aliases": ["skyworld"],
-      "description": "",
-      "type": "basic",
-      "hidden": true
     }
   ]
 }
