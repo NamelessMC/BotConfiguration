@@ -48,7 +48,7 @@
         }
     },
     {
-        "keywords": ["unable to load template 'file"],
+        "keywords": ["unable to load template file"],
         "response": {
              "title": "Unable To Load Template File",
              "footer": "",
@@ -68,17 +68,6 @@
             "footer": "",
             "body": [
                 "To change the prefix of the Nameless Link discord bot, run `!prefix <server id> <new prefix>`. Use `reset` to use the default prefix."
-            ]
-        }
-    },
-    {
-        "keywords": ["We are an online platform to help users around the world connect through NamelessMC powered forums."],
-        "response": {
-            "title": "Change embed in Nexus",
-            "footer": "",
-            "body": [
-                "To change the embed in Nexus, you have to go in `StaffCP > Nexus > Embed`.\n\n",
-                "For further support please join the development server https://template.mubeen.eu/discord"
             ]
         }
     },
