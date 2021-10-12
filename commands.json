@@ -12,7 +12,7 @@
       "type": "argdir",
       "hidden": false
     },
-    	{
+{
       "aliases": ["support"],
       "description": "Get quick support for NamelessMC",
       "type": "argdir",
