@@ -48,7 +48,7 @@
         }
     },
     {
-        "keywords": ["unable to load template 'file"],
+        "keywords": ["unable to load template file"],
         "response": {
              "title": "Unable To Load Template File",
              "footer": "",
