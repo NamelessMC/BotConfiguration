@@ -13,7 +13,7 @@
         }
     },
     {
-        "keywords": ["The requested URL was not found on this server"],
+        "keywords": ["The requested URL was not found on this server."],
         "response": {
             "title": "Friendly Urls",
             "footer": "",
@@ -28,7 +28,7 @@
         }
     },
     {
-        "keywords": ["Unable to enable incompatible module"],
+        "keywords": ["Unable to enable incompatible module."],
         "response": {
             "title": "Incompatible module",
             "footer": "",
@@ -48,7 +48,7 @@
         }
     },
     {
-        "keywords": ["unable to load template file"],
+        "keywords": ["unable to load template 'file"],
         "response": {
              "title": "Unable To Load Template File",
              "footer": "",
@@ -78,7 +78,7 @@
             "footer" : "",
             "body": [
                 "This is usually caused by the installation folder within the web root (and its subdirectories) not being writable. You will need to modify the permissions recursively of the folder so the process running PHP can write to it.\n",
-                "An example command for Apache and nginx on Ubuntu is",
+                "An example command for Apache and nginx on Ubuntu is\n",
                 "`sudo chown -R www-data:www-data /var/www/html/`"
             ]
         }
