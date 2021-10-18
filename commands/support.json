@@ -17,6 +17,7 @@
     "v2/news-char-limit",
     "v2/news",
     "v2/upgrade-v1",
+    "v2/debug-link",
     "core-config-writable"
   ]
 }
