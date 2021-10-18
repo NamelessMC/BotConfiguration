@@ -54,7 +54,7 @@
              "footer": "",
              "body": [
                 "When you get an error that says \"Unable to load template file:\" `module-name/some-file.tpl` or `some-file.tpl`, it means that either your panel template or your website template (depending on where the error occurs), is missing that module's template file(s).\n\n",
-                "If you're using the \"Default\" or \"DefaultRevamp\" templates, the template file(s) for that module should be included in the module's download folder, same goes for the \"Default\" panel template.\n\n",
+                "If you're using the \"DefaultRevamp\" template, the template file(s) for that module should be included in the module's download folder.\n\n",
                 "If you're using a premium template, the module template files should've already been included with the template, if they are not, contact the template author.\n",
                 "For the free templates, module support is usually pretty shaky, and possibilty for the module support being added is pretty low.\n\n",
                 "Most panel templates in the resources page at this time don't support most modules, so you should either wait for the support to be added or use the \"Default\" panel template instead."
@@ -78,7 +78,7 @@
             "footer" : "",
             "body": [
                 "This is usually caused by the installation folder within the web root (and its subdirectories) not being writable. You will need to modify the permissions recursively of the folder so the process running PHP can write to it.\n",
-                "An example command for Apache and nginx on Ubuntu is",
+                "An example command for Apache and nginx on Ubuntu is\n",
                 "`sudo chown -R www-data:www-data /var/www/html/`"
             ]
         }
