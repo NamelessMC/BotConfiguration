@@ -89,7 +89,7 @@
             "title": "Invalid token",
             "footer": "",
             "body": [
-                "This error will likely occur when your template is outdated. This is due to a change in pr12 which causes issues causing this error.",
+                "This error will likely occur when your template is outdated. This is due to a change in pr12 which causes issues causing this error.\n",
                 "To fix this, update your template to the most recent version if it is available (it should support pr12). If your template has not been updated yet,",
                 "try switching to the default template to fix the issue temporarily."
             ]
