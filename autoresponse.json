@@ -19,7 +19,7 @@
             "footer": "",
             "body": [
                 "In order to use friendly urls on your v2 website, your web server has to allow the use of `.htaccess` files and you have to have `mod_rewrite` enabled.\n\n",
-                "You can check if `mod_rewrite` is enabled by going to http://yoursite.com/rewrite_test if it says \"Rewrite Enabled\" you're good to go.\n",
+                "You can check if `mod_rewrite` is enabled by going to http://example.com/rewrite_test if it says \"Rewrite Enabled\" you're good to go.\n",
                 "If not, contact your web host and ask them to enable `mod_rewrite`, or if you're using a vps or a dedicated server, Google information on how to enable `mod_rewrite` on your specific OS.\n\n",
                 "As well make sure you have a `.htaccess` file in your root directory, `.htaccess` files are hidden so make sure you have hidden file view enabled on your file manager or ftp client.\n",
                 "Your `.htaccess` file should contain these rules: https://raw.githubusercontent.com/NamelessMC/Nameless/v2/.htaccess\n\n",
@@ -54,10 +54,44 @@
              "footer": "",
              "body": [
                 "When you get an error that says \"Unable to load template file:\" `module-name/some-file.tpl` or `some-file.tpl`, it means that either your panel template or your website template (depending on where the error occurs), is missing that module's template file(s).\n\n",
-                "If you're using the \"Default\" or \"DefaultRevamp\" templates, the template file(s) for that module should be included in the module's download folder, same goes for the \"Default\" panel template.\n\n",
+                "If you're using the \"DefaultRevamp\" template, the template file(s) for that module should be included in the module's download folder.\n\n",
                 "If you're using a premium template, the module template files should've already been included with the template, if they are not, contact the template author.\n",
                 "For the free templates, module support is usually pretty shaky, and possibilty for the module support being added is pretty low.\n\n",
                 "Most panel templates in the resources page at this time don't support most modules, so you should either wait for the support to be added or use the \"Default\" panel template instead."
+            ]
+        }
+    },
+    {
+        "keywords": ["change", "prefix", "bot"],
+        "response": {
+            "title": "Change the command prefix of the Nameless Link Discord bot",
+            "footer": "",
+            "body": [
+                "To change the prefix of the Nameless Link discord bot, run `!prefix <server id> <new prefix>`. Use `reset` to use the default prefix."
+            ]
+        }
+    },
+    {
+        "keywords": ["upload failed, unknown error occured"],
+        "response": {
+            "title": "Folder is not writeable",
+            "footer" : "",
+            "body": [
+                "This is usually caused by the installation folder within the web root (and its subdirectories) not being writable. You will need to modify the permissions recursively of the folder so the process running PHP can write to it.\n",
+                "An example command for Apache and nginx on Ubuntu is\n",
+                "`sudo chown -R www-data:www-data /var/www/html/`"
+            ]
+        }
+    },
+    {
+        "keywords": ["invalid token, please try again"],
+        "response": {
+            "title": "Invalid token",
+            "footer": "",
+            "body": [
+                "This error will likely occur when your template is outdated. This is due to a change in pr12 which causes issues causing this error.\n",
+                "To fix this, update your template to the most recent version if it is available (it should support pr12). If your template has not been updated yet,",
+                "try switching to the default template to fix the issue temporarily."
             ]
         }
     }
