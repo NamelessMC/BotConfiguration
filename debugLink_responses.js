@@ -104,10 +104,9 @@ module.exports = [
                 "footer": "",
                 "body": [
                     "Troubleshooting steps for configuring Discord Group Sync:\n",
-                    ...errors.join("\n")
+                    ...errors
                 ]
             }
         }
     }
-
 ]
