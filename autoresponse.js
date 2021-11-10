@@ -1,3 +1,5 @@
+const debugLinkResponses = require('./debug_link_responses.js');
+
 module.exports = [
     {
         requiresDebugLink: false,
@@ -135,18 +137,5 @@ module.exports = [
             ]
         }
     },
-    {
-        requiresDebugLink: true,
-        priority: 1,
-        check: (message, debugObject) => {
-            return debugObject.debug_version === 1
-        },
-        response: {
-            "title": "Success",
-            "footer": "",
-            "body": [
-                "The debug log version is correct and equal to 1..."
-            ]
-        }
-    }
+    ...debugLinkResponses
 ]
