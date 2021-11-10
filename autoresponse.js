@@ -4,10 +4,7 @@ module.exports = [
     {
         requiresDebugLink: false,
         priority: 1,
-        check: (message) => {
-            const keywords = ["how", "upload", "favicon"];
-            return keywords.every(keyword => message.toLowerCase().includes(keyword));
-        },
+        keywords: ["how", "upload", "favicon"],
         response: {
             "title": "Adding a Favicon to v2",
             "footer": "",
@@ -22,10 +19,7 @@ module.exports = [
     {
         requiresDebugLink: false,
         priority: 1,
-        check: (message) => {
-            const keywords = ["The requested URL was not found on this server."];
-            return keywords.every(keyword => message.toLowerCase().includes(keyword));
-        },
+        keywords: ["The requested URL was not found on this server."],
         response: {
             "title": "Friendly Urls",
             "footer": "",
@@ -42,10 +36,7 @@ module.exports = [
     {
         requiresDebugLink: false,
         priority: 1,
-        check: (message) => {
-            const keywords = ["Unable to enable incompatible module."];
-            return keywords.every(keyword => message.toLowerCase().includes(keyword));
-        },
+        keywords: ["Unable to enable incompatible module."],
         response: {
             "title": "Incompatible module",
             "footer": "",
@@ -59,10 +50,7 @@ module.exports = [
     {
         requiresDebugLink: false,
         priority: 1,
-        check: (message) => {
-            const keywords = ["invalid api method"];
-            return keywords.every(keyword => message.toLowerCase().includes(keyword));
-        },
+        keywords: ["invalid api method"],
         response: {
             "title": "Invalid api method",
             "footer": "",
@@ -72,10 +60,7 @@ module.exports = [
     {
         requiresDebugLink: false,
         priority: 1,
-        check: (message) => {
-            const keywords = ["unable to load template 'file"];
-            return keywords.every(keyword => message.toLowerCase().includes(keyword));
-        },
+        keywords: ["unable to load template 'file"],
         response: {
             "title": "Unable To Load Template File",
             "footer": "",
@@ -91,10 +76,7 @@ module.exports = [
     {
         requiresDebugLink: false,
         priority: 1,
-        check: (message) => {
-            const keywords = ["change", "api", "bot"];
-            return keywords.every(keyword => message.toLowerCase().includes(keyword));
-        },
+        keywords: ["change", "api", "bot"],
         response: {
             "title": "Change API Key for Nameless Link Discord bot",
             "footer": "",
@@ -106,10 +88,7 @@ module.exports = [
     {
         requiresDebugLink: false,
         priority: 1,
-        check: (message) => {
-            const keywords = ["upload failed, unknown error occured"];
-            return keywords.every(keyword => message.toLowerCase().includes(keyword));
-        },
+        keywords: ["upload failed, unknown error occured"],
         response: {
             "title": "Folder is not writeable",
             "footer" : "",
@@ -123,10 +102,7 @@ module.exports = [
     {
         requiresDebugLink: false,
         priority: 1,
-        check: (message) => {
-            const keywords = ["invalid token, please try again"];
-            return keywords.every(keyword => message.toLowerCase().includes(keyword));
-        },
+        keywords: ["invalid token, please try again"],
         response: {
             "title": "Invalid token",
             "footer": "",
