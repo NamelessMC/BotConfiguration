@@ -43,7 +43,7 @@ module.exports = [
             "title": "Minecraft Group Sync not working",
             "footer": "",
             "body": [
-                "Troubleshooting steps for configuring Discord Group Sync:\n",
+                "Troubleshooting steps for configuring Minecraft Group Sync:\n",
                 "- `Please ensure you are running NamelessMC 2.0.0 pre13.`\n",
                 "- `Please ensure your NamelessMC API is enabled in StaffCP -> Configuration -> API.`\n",
                 "- `Please ensure you have enabled Minecraft integration in StaffCP -> Integrations -> Minecraft.`\n",
