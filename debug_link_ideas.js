@@ -1,11 +1,7 @@
 const hasGroupRule = (rules, column) => {
-    rules.forEach((rule) => {
-        if (rule[column] !== null) {
-            return true;
-        }
-    });
-
-    return false;
+    return rules.filter(
+        rule => rule[column] !== null
+    ).length > 0;
 }
 
 module.exports = [
@@ -14,16 +10,13 @@ module.exports = [
 
         debugLinkRequired: true,
 
-        // must have "discord" and at least one of the optional keywords
+        // must have "how" and "discord" and at least one of the optional keywords
         keywords: [
+            'how', // required
             'discord', // required
             [
-                'group sync' // optional
-            ],
-            [
-                'rank sync' // optional
-            ],
-            [
+                'group sync', // optional
+                'rank sync', // optional
                 'role sync' // optional
             ]
         ],
@@ -40,7 +33,7 @@ module.exports = [
                return true;
             })();
 
-            if (errors) {
+            if (errors === true) {
                 // no errors
                 return;
             }
@@ -50,7 +43,7 @@ module.exports = [
                 "footer": "",
                 "body": [
                     "Troubleshooting steps for configuring Discord Group Sync:\n",
-                    ...errors
+                    ...errors.join("\n")
                 ]
             }
         }
@@ -63,12 +56,8 @@ module.exports = [
         keywords: [
             'minecraft',
             [
-                'group sync'
-            ],
-            [
-                'rank sync'
-            ],
-            [
+                'group sync',
+                'rank sync',
                 'role sync'
             ]
         ],
