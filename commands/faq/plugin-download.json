@@ -3,7 +3,7 @@
   "footer": "",
   "body": [
     "The NamelessMC plugin is still a work in progress, but there is a pre release to download. If there is any bugs ",
-	"report them [here](https://github.com/NamelessMC/Nameless-Plugin/issues). The plugin currently supports spigot and bungeecord, NOT Bukkit. ",
-	"Download it [here](https://www.spigotmc.org/resources/official-namelessplugin.42698/)"
+    "report them [here](https://github.com/NamelessMC/Nameless-Plugin/issues). The plugin currently supports spigot and bungeecord, NOT Bukkit. ",
+    "Download it [here](https://plugin.namelessmc.com)"
   ]
 }

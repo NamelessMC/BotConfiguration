@@ -1,19 +1,17 @@
 {
   "commands": [
-	{
-      "aliases": ["cheese"],
-      "description": "Display cheese",
-      "type": "basic",
-      "hidden": true
-    },
-	{
-      "aliases": ["faq"],
+    {
+      "aliases": [
+        "faq"
+      ],
       "description": "Get help with some frequently asked questions",
       "type": "argdir",
       "hidden": false
     },
     {
-      "aliases": ["support"],
+      "aliases": [
+        "support"
+      ],
       "description": "Get quick support for NamelessMC",
       "type": "argdir",
       "hidden": false

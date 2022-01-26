@@ -2,7 +2,7 @@ const hasGroupRule = (rules, column) => {
     return rules.filter(
         rule => rule[column] !== null
     ).length > 0;
-}
+};
 
 module.exports = [
 
@@ -30,7 +30,7 @@ module.exports = [
                     ];
                 }
 
-               return true;
+                return true;
             })();
 
             if (errors === true) {
@@ -45,7 +45,7 @@ module.exports = [
                     "Troubleshooting steps for configuring Discord Group Sync:\n",
                     ...errors.join("\n")
                 ]
-            }
+            };
         }
 
     },
@@ -106,7 +106,7 @@ module.exports = [
                     "Troubleshooting steps for configuring Discord Group Sync:\n",
                     ...errors
                 ]
-            }
+            };
         }
     }
-]
+];
