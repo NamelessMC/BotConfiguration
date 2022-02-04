@@ -113,5 +113,23 @@ module.exports = [
             ]
         }
     },
+    {
+        requiresDebugLink: false,
+        priority: 1,
+        keywords: ["777"],
+        response: {
+            "title": "Proper file permissions",
+            "footer": "",
+            "body": [
+                "Setting the permission mode of a file to 777 means all users on a system will get full read, write and execute permissions. This is never a good solution.\n",
+                "\n",
+                "When you installed your webserver, a dedicated user was automatically created on your system. On nearly all systems it's `www-data`, but ",
+                "it can also be `nginx`, `apache`, `www`, or something else. The `chmod -R` command can be used to recursively change ownership of a directory and its ",
+                "contents. Replace `/var/www/html` with the path to your NamelessMC installation directory.\n",
+                "\n",
+                "Example: `chown -R www-data: /var/www/html`"
+            ]
+        }
+    },
     ...debugLinkResponses
 ]
