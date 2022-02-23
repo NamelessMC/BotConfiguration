@@ -128,5 +128,19 @@ module.exports = [
             ]
         }
     },
+    {
+        requiresDebugLink: false,
+        priority: 1,
+        keywords: ["Sorry, but something went wrong while loading the page. Please contact an administrator."],
+        response: {
+            "title": "Fatal error",
+            "footer": "",
+            "body": [
+                "Please find the full error message in the `/cache/logs/fatal-log.log` file or StaffCP > Configuration > Maintenance > Error Logs > Fatal log.",
+                "",
+                "If you got this issue while using the API (e.g. Spigot plugin or Nameless-Link bot), please apply the API fixes [mentioned here](https://github.com/NamelessMC/Nameless/issues/2446) first."
+            ]
+        }
+    },
     ...debugLinkResponses
 ]
