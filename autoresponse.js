@@ -27,7 +27,9 @@ module.exports = [
                 "",
                 "If not, contact your web host and ask them to enable `mod_rewrite`, or if you're using a vps or a dedicated server, Google information on how to enable `mod_rewrite` on your specific OS.",
                 "",
-                "As well make sure you have a `.htaccess` file in your root directory, `.htaccess` files are hidden so make sure you have hidden file view enabled on your file manager or ftp client. Your `.htaccess` file should contain these rules: https://raw.githubusercontent.com/NamelessMC/Nameless/v2/.htaccess\n\n",
+                "As well make sure you have a `.htaccess` file in your root directory, `.htaccess` files are hidden so make sure you have hidden file view enabled on your file manager or ftp client. Your `.htaccess` file should contain these rules: https://raw.githubusercontent.com/NamelessMC/Nameless/v2/.htaccess",
+                "",
+                "Nginx users should ignore the above and instead make sure the nginx configuration file (`server {` block) includes the location blocks from the [example config file](https://github.com/NamelessMC/Nameless/blob/v2/nginx.example)."
             ]
         }
     },
