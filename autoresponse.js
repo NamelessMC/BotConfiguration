@@ -1,7 +1,5 @@
 module.exports = [
     {
-        requiresDebugLink: false,
-        priority: 1,
         keywords: [["how", "upload", "favicon"]],
         response: {
             "title": "Adding a Favicon to v2",
@@ -14,8 +12,6 @@ module.exports = [
         }
     },
     {
-        requiresDebugLink: false,
-        priority: 1,
         keywords: [["The requested URL was not found on this server."]],
         response: {
             "title": "Friendly Urls",
@@ -32,8 +28,6 @@ module.exports = [
         }
     },
     {
-        requiresDebugLink: false,
-        priority: 1,
         keywords: [["Unable to enable incompatible module."]],
         response: {
             "title": "Incompatible module",
@@ -46,8 +40,6 @@ module.exports = [
         }
     },
     {
-        requiresDebugLink: false,
-        priority: 1,
         keywords: [["invalid api method"]],
         response: {
             "title": "Invalid api method",
@@ -56,8 +48,6 @@ module.exports = [
         }
     },
     {
-        requiresDebugLink: false,
-        priority: 1,
         keywords: [["unable to load template 'file"]],
         response: {
             "title": "Unable To Load Template File",
@@ -74,8 +64,6 @@ module.exports = [
         }
     },
     {
-        requiresDebugLink: false,
-        priority: 1,
         keywords: [["change", "api", "bot"]],
         response: {
             "title": "Change API Key for Nameless Link Discord bot",
@@ -86,8 +74,6 @@ module.exports = [
         }
     },
     {
-        requiresDebugLink: false,
-        priority: 1,
         keywords: [["upload failed, unknown error occured"]],
         response: {
             "title": "Folder is not writeable",
@@ -101,8 +87,6 @@ module.exports = [
         }
     },
     {
-        requiresDebugLink: false,
-        priority: 1,
         keywords: [["invalid token, please try again"]],
         response: {
             "title": "Invalid token",
@@ -113,8 +97,6 @@ module.exports = [
         }
     },
     {
-        requiresDebugLink: false,
-        priority: 1,
         keywords: [["777"]],
         response: {
             "title": "Proper file permissions",
@@ -129,8 +111,6 @@ module.exports = [
         }
     },
     {
-        requiresDebugLink: false,
-        priority: 1,
         keywords: [["Sorry, but something went wrong while loading the page. Please contact an administrator."]],
         response: {
             "title": "Fatal error",
