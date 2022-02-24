@@ -2,8 +2,8 @@
   "title": "News Topics | v1",
   "footer": "",
   "body": [
-    "News topics are forum topics that were created in a specific forum that has this setting enabled.\n",
-    "To enable news topics go to `AdminCP > Forums > (Forum)` and in the settings of a forum of your choosing toggle \"Display threads as news on front page?\".\n",
+    "News topics are forum topics that were created in a specific forum that has this setting enabled.",
+    "To enable news topics go to `AdminCP > Forums > (Forum)` and in the settings of a forum of your choosing toggle \"Display threads as news on front page?\".",
     "After you toggle this setting, every topic created in that forum (for example: Announcements) will be displayed on the homepage."
   ]
 }
