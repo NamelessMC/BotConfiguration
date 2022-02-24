@@ -1,10 +1,8 @@
-const debugLinkResponses = require('./debug_link_responses.js');
-
 module.exports = [
     {
         requiresDebugLink: false,
         priority: 1,
-        keywords: ["how", "upload", "favicon"],
+        keywords: [["how", "upload", "favicon"]],
         response: {
             "title": "Adding a Favicon to v2",
             "footer": "",
@@ -18,7 +16,7 @@ module.exports = [
     {
         requiresDebugLink: false,
         priority: 1,
-        keywords: ["The requested URL was not found on this server."],
+        keywords: [["The requested URL was not found on this server."]],
         response: {
             "title": "Friendly Urls",
             "footer": "To disable friendly urls, go to `core/config.php` and change \"friendly\" from \"true\" to \"false\".",
@@ -36,7 +34,7 @@ module.exports = [
     {
         requiresDebugLink: false,
         priority: 1,
-        keywords: ["Unable to enable incompatible module."],
+        keywords: [["Unable to enable incompatible module."]],
         response: {
             "title": "Incompatible module",
             "footer": "",
@@ -50,7 +48,7 @@ module.exports = [
     {
         requiresDebugLink: false,
         priority: 1,
-        keywords: ["invalid api method"],
+        keywords: [["invalid api method"]],
         response: {
             "title": "Invalid api method",
             "footer": "",
@@ -60,7 +58,7 @@ module.exports = [
     {
         requiresDebugLink: false,
         priority: 1,
-        keywords: ["unable to load template 'file"],
+        keywords: [["unable to load template 'file"]],
         response: {
             "title": "Unable To Load Template File",
             "footer": "",
@@ -78,7 +76,7 @@ module.exports = [
     {
         requiresDebugLink: false,
         priority: 1,
-        keywords: ["change", "api", "bot"],
+        keywords: [["change", "api", "bot"]],
         response: {
             "title": "Change API Key for Nameless Link Discord bot",
             "footer": "",
@@ -90,7 +88,7 @@ module.exports = [
     {
         requiresDebugLink: false,
         priority: 1,
-        keywords: ["upload failed, unknown error occured"],
+        keywords: [["upload failed, unknown error occured"]],
         response: {
             "title": "Folder is not writeable",
             "footer" : "",
@@ -105,7 +103,7 @@ module.exports = [
     {
         requiresDebugLink: false,
         priority: 1,
-        keywords: ["invalid token, please try again"],
+        keywords: [["invalid token, please try again"]],
         response: {
             "title": "Invalid token",
             "footer": "",
@@ -117,7 +115,7 @@ module.exports = [
     {
         requiresDebugLink: false,
         priority: 1,
-        keywords: ["777"],
+        keywords: [["777"]],
         response: {
             "title": "Proper file permissions",
             "footer": "",
@@ -133,7 +131,7 @@ module.exports = [
     {
         requiresDebugLink: false,
         priority: 1,
-        keywords: ["Sorry, but something went wrong while loading the page. Please contact an administrator."],
+        keywords: [["Sorry, but something went wrong while loading the page. Please contact an administrator."]],
         response: {
             "title": "Fatal error",
             "footer": "",
@@ -144,5 +142,4 @@ module.exports = [
             ]
         }
     },
-    ...debugLinkResponses
 ]
