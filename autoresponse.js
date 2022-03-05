@@ -123,7 +123,7 @@ module.exports = [
         }
     },
     {
-        keywords: [["how", "setup", "mail"], ["how", "setup", "phpmailer"]],
+        keywords: [["how", "setup", "mail"], ["how", "setup", "phpmailer"], ["how", "setup", "gmail"]],
         response: {
             "title": "Setting up PHPMailer",
             "footer": "",
