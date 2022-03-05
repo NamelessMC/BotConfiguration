@@ -122,4 +122,73 @@ module.exports = [
             ]
         }
     },
+    {
+        keywords: [["how", "setup", "mail"], ["how", "setup", "phpmailer"]],
+        response: {
+            "title": "Setting up PHPMailer",
+            "footer": "",
+            "body": [
+                "Setting up SMTP can be done by going to `StaffCP -> Configuration -> Email` and enabling the `Enable PHPMailer` option. After this fill in the fields below.",
+                "",
+                "`username` - The email adress from your SMTP server",
+                "`password` - The password associated with the SMTP email address",
+                "`name` - The name you want to be displayed in the \"From\" field in the email",
+                "`host` - The hostname of your SMTP server, such as the SMTP server's IP address",
+                "",
+                "For additional info, take a look at <https://docs.namelessmc.com/smtp/>"
+            ]
+        }
+    },
+    {
+        keywords: [["Invalid reCAPTCHA response"]],
+        response: {
+            "title": "Invalid reCAPTCHA configuration",
+            "footer": "",
+            "body": [
+                "The `Invalid reCAPTCHA response` error occurs when captcha has been enabled but not correctly configured in the StaffCP. You can disable the captcha by going in the file `core/config.php` and setting `captcha` to false. You can configure the captcha in `StaffCP -> Configuration -> Registration`. Make sure you fill in the `Captcha Site Key` and `Captcha Secret Key` fields and selecting the correct captcha type.",
+                "",
+                "We recommend testing the captcha on registration **first** before setting it up on login. This way you can't lock yourself out."
+            ]
+        }
+    },
+    {
+        keywords: [["where", "find", "api"], ["how", "find", "api"]],
+        response: {
+            "title": "Finding your api configuration",
+            "footer": "",
+            "body": [
+                "You can find your API configuration in `StaffCP -> Configuration -> API`. This page will contain your API Key, API URL and some other settings related to your site API"
+            ]
+        }
+    },
+    {
+        keywords: [["Argument", "must be of type", "given"]],
+        response: {
+            "title": "PHP 8 issues",
+            "footer": "",
+            "body": [
+                "This issue occurs when the code is not yet compatible with PHP 8. If this happens within the functionality of a third party module or template, please contact the module/template author. You can fix this issue by **downgrading** to PHP 7.4 which fixes this issue."
+            ]
+        }
+    },
+    {
+        keywords: [["how", "remove", "status page"]],
+        response: {
+            "title": "Removing the minecraft status page",
+            "footer": "",
+            "body": [
+                "To disable the minecraft status page. Go to `StaffCP -> Integrations -> Minecraft -> Minecraft Servers` and disable the `Enable status page` switch. This will remove the status page from your website"
+            ]
+        }
+    },
+    {
+        keywords: [["Announcements.php(50): Using $this when not in object context"], ["Undefined constant \"PAGE\""], ["ServerInfoEndpoint.php(163) 2: array_merge(): Expected parameter 2 to be an array, null given"], ["ServerInfoEndpoint.php(163) 8: Undefined variable: log_array"]],
+        response: {
+            "title": "Broken API in pr12",
+            "footer": "",
+            "body": [
+                "To fix these issues, please head to [this](https://github.com/NamelessMC/Nameless/issues/2446) page and apply the commits mentioned in the `Broken API` part. This will fix the issue"
+            ]
+        }
+    }
 ]
