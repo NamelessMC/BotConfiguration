@@ -1,10 +1,6 @@
-const debugLinkResponses = require('./debug_link_responses.js');
-
 module.exports = [
     {
-        requiresDebugLink: false,
-        priority: 1,
-        keywords: ["how", "upload", "favicon"],
+        keywords: [["how", "upload", "favicon"]],
         response: {
             "title": "Adding a Favicon to v2",
             "footer": "",
@@ -16,9 +12,7 @@ module.exports = [
         }
     },
     {
-        requiresDebugLink: false,
-        priority: 1,
-        keywords: ["The requested URL was not found on this server."],
+        keywords: [["The requested URL was not found on this server."]],
         response: {
             "title": "Friendly Urls",
             "footer": "To disable friendly urls, go to `core/config.php` and change \"friendly\" from \"true\" to \"false\".",
@@ -27,14 +21,14 @@ module.exports = [
                 "",
                 "If not, contact your web host and ask them to enable `mod_rewrite`, or if you're using a vps or a dedicated server, Google information on how to enable `mod_rewrite` on your specific OS.",
                 "",
-                "As well make sure you have a `.htaccess` file in your root directory, `.htaccess` files are hidden so make sure you have hidden file view enabled on your file manager or ftp client. Your `.htaccess` file should contain these rules: https://raw.githubusercontent.com/NamelessMC/Nameless/v2/.htaccess\n\n",
+                "As well make sure you have a `.htaccess` file in your root directory, `.htaccess` files are hidden so make sure you have hidden file view enabled on your file manager or ftp client. Your `.htaccess` file should contain these rules: https://raw.githubusercontent.com/NamelessMC/Nameless/v2/.htaccess",
+                "",
+                "Nginx users should ignore the above and instead make sure the nginx configuration file (`server {` block) includes the location blocks from the [example config file](https://github.com/NamelessMC/Nameless/blob/v2/nginx.example)."
             ]
         }
     },
     {
-        requiresDebugLink: false,
-        priority: 1,
-        keywords: ["Unable to enable incompatible module."],
+        keywords: [["Unable to enable incompatible module."]],
         response: {
             "title": "Incompatible module",
             "footer": "",
@@ -46,9 +40,7 @@ module.exports = [
         }
     },
     {
-        requiresDebugLink: false,
-        priority: 1,
-        keywords: ["invalid api method"],
+        keywords: [["invalid api method"]],
         response: {
             "title": "Invalid api method",
             "footer": "",
@@ -56,9 +48,7 @@ module.exports = [
         }
     },
     {
-        requiresDebugLink: false,
-        priority: 1,
-        keywords: ["unable to load template 'file"],
+        keywords: [["unable to load template 'file"]],
         response: {
             "title": "Unable To Load Template File",
             "footer": "",
@@ -74,9 +64,7 @@ module.exports = [
         }
     },
     {
-        requiresDebugLink: false,
-        priority: 1,
-        keywords: ["change", "api", "bot"],
+        keywords: [["change", "api", "bot"]],
         response: {
             "title": "Change API Key for Nameless Link Discord bot",
             "footer": "",
@@ -86,12 +74,10 @@ module.exports = [
         }
     },
     {
-        requiresDebugLink: false,
-        priority: 1,
-        keywords: ["upload failed, unknown error occured"],
+        keywords: [["upload failed, unknown error occured"]],
         response: {
             "title": "Folder is not writeable",
-            "footer": "",
+            "footer" : "",
             "body": [
                 "This is usually caused by the installation folder within the web root (and its subdirectories) not being writable. You will need to modify the permissions recursively of the folder so the process running PHP can write to it.",
                 "",
@@ -101,9 +87,7 @@ module.exports = [
         }
     },
     {
-        requiresDebugLink: false,
-        priority: 1,
-        keywords: ["invalid token, please try again"],
+        keywords: [["invalid token, please try again"]],
         response: {
             "title": "Invalid token",
             "footer": "",
@@ -113,9 +97,7 @@ module.exports = [
         }
     },
     {
-        requiresDebugLink: false,
-        priority: 1,
-        keywords: ["777"],
+        keywords: [["777"]],
         response: {
             "title": "Proper file permissions",
             "footer": "",
@@ -209,4 +191,4 @@ module.exports = [
             ]
         }
     }
-];
+]
