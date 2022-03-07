@@ -1,7 +1,0 @@
-{
-  "title": "Installer 404 (Nginx)",
-  "footer": "",
-  "body": [
-    "You need to make sure your nginx configuration file includes the location blocks from the [example config file](https://github.com/NamelessMC/Nameless/blob/v2/nginx.example)."
-  ]
-}
