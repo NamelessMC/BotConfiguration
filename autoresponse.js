@@ -92,7 +92,7 @@ module.exports = [
             "title": "Invalid token",
             "footer": "",
             "body": [
-                "This error will likely occur when your template is outdated. This is due to a change in pr12 which causes issues causing this error. To fix this, update your template to the most recent version if it is available (it should support pr12). If your template has not been updated yet, try switching to the default template to fix the issue temporarily. After this, attempt to clear your panel template cache."
+                "This error will likely occur when your template is outdated. This is due to a change in pr13 which causes issues causing this error. To fix this, update your template to the most recent version if it is available (it should support pr13). If your template has not been updated yet, try switching to the default template to fix the issue temporarily. After this, attempt to clear your panel template cache."
             ]
         }
     },
@@ -184,7 +184,7 @@ module.exports = [
     {
         keywords: [["Announcements.php(50): Using $this when not in object context"], ["Undefined constant \"PAGE\""], ["ServerInfoEndpoint.php(163) 2: array_merge(): Expected parameter 2 to be an array, null given"], ["ServerInfoEndpoint.php(163) 8: Undefined variable: log_array"]],
         response: {
-            "title": "Broken API in pr12",
+            "title": "Broken API in pr13",
             "footer": "",
             "body": [
                 "To fix these issues, please head to [this](https://github.com/NamelessMC/Nameless/issues/2446) page and apply the commits mentioned in the `Broken API` part. This will fix the issue"
