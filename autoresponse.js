@@ -152,6 +152,16 @@ module.exports = [
         }
     },
     {
+        keywords: [["hCaptcha has failed to initialize"]],
+        response: {
+            "title": "Invalid hCaptcha configuration",
+            "footer": "",
+            "body": [
+                "This error occurs when you entered invalid details in the `Captcha Site Key` and/or `Captcha Secret Key` fields in `StaffCP -> Configuration -> Registration`. If you are locked out of your website, you can manually disable the captcha by going in `core/config.php` and setting the `captcha` setting to false."
+            ]
+        }
+    },
+    {
         keywords: [["where", "find", "api"], ["how", "find", "api"]],
         response: {
             "title": "Finding your api configuration",
