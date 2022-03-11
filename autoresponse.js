@@ -111,7 +111,10 @@ module.exports = [
         }
     },
     {
-        keywords: [["Sorry, but something went wrong while loading the page. Please contact an administrator."]],
+        keywords: [
+            ["Sorry, but something went wrong while loading the page. Please contact an administrator."],
+            ["<meta name=\"description\" content=\"Fatal Error"]
+        ],
         response: {
             "title": "Fatal error",
             "footer": "",
