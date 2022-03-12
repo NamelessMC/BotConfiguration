@@ -12,7 +12,10 @@ module.exports = [
         }
     },
     {
-        keywords: [["The requested URL was not found on this server."]],
+        keywords: [
+            ["The requested URL was not found on this server."],
+            ["This page either doesn't exist, or it moved somewhere else."]
+        ],
         response: {
             "title": "Friendly Urls",
             "footer": "To disable friendly urls, go to `core/config.php` and change \"friendly\" from \"true\" to \"false\".",
