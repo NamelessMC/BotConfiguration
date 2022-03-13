@@ -115,6 +115,28 @@ module.exports = [
     },
     {
         keywords: [
+            ["NamelessMC could not be downloaded. Please ensure", "your webserver has permissions to write to your file system"],
+            ["Permission denied in /var/www/html/easy-install.php"],
+            ["Unable to create cache directory"],
+            ["core/config.php", "is not writeable"],
+            ["The directory", "is not writable."],
+            ["Your core directory is not writable"],
+            ["directory must be readable and writeable."],
+            ["Check your file permissions."],
+            ["Upload failed", "Unknown error", "occured"]
+        ],
+        response: {
+            "title": "File permissions",
+            "footer": "",
+            "body": [
+                "Ensure your webserver directory and its contents are owned by the correct user. In most cases this is `www-data` but it can also be `nginx`, `apache`, `www`, or something else. The `chmod -R` command can be used to recursively change ownership of a directory and its contents. Replace `/var/www/html` with the path to your NamelessMC installation directory.",
+                "",
+                "Example: `chown -R www-data: /var/www/html`"
+            ]
+        }
+    },
+    {
+        keywords: [
             ["Sorry, but something went wrong while loading the page. Please contact an administrator."],
             ["<meta name=\"description\" content=\"Fatal Error"]
         ],
