@@ -14,7 +14,8 @@ module.exports = [
     {
         keywords: [
             ["The requested URL was not found on this server."],
-            ["This page either doesn't exist, or it moved somewhere else."]
+            ["This page either doesn't exist, or it moved somewhere else."],
+            ["404 Not Found", "nginx"]
         ],
         response: {
             "title": "Friendly Urls",
