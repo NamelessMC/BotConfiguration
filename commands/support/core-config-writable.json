@@ -6,6 +6,6 @@
     "Your core/config.php file is not writeable. Please check your file permissions.",
     "",
     "**Solution:**",
-    "Check the file permissions on the ``core/config.php`` file and make sure it is set to ``775``. If you don't know how to change the file permissions, google it."
+    "Check the file permissions on the `core/config.php` file and make sure it is set to `775`. If you don't know how to change the file permissions, google it."
   ]
 }
