@@ -233,7 +233,7 @@ module.exports = [
     {
         keywords: [["how", "enable", "friendly url"], ["how", "enable", "friendly urls"]],
         response: {
-            "title": "Enabling friendly-urls"
+            "title": "Enabling friendly-urls",
             "footer": "",
             "body": [
                 "If you want to enable friendly urls, please follow the steps over at https://docs.namelessmc.com/friendly-urls"
