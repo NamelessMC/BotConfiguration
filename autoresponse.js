@@ -229,5 +229,15 @@ module.exports = [
                 "To fix these issues, please head to [this](https://github.com/NamelessMC/Nameless/issues/2446) page and apply the commits mentioned in the `Broken API` part. This will fix the issue"
             ]
         }
+    },
+    {
+        keywords: [["how", "enable", "friendly url"], ["how", "enable", "friendly urls"]],
+        response: {
+            "title": "Enabling friendly-urls"
+            "footer": "",
+            "body": [
+                "If you want to enable friendly urls, please follow the steps over at https://docs.namelessmc.com/friendly-urls"
+            ]
+        }
     }
 ]
