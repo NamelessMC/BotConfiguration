@@ -139,7 +139,23 @@ module.exports = [
     {
         keywords: [
             ["Sorry, but something went wrong while loading the page. Please contact an administrator."],
-            ["<meta name=\"description\" content=\"Fatal Error"]
+            ["<meta name=\"description\" content=\"Fatal Error"],
+            ["<meta name=\"description\" content=\"致命错误"],
+            ["<meta name=\"description\" content=\"Fatální chyba"],
+            ["<meta name=\"description\" content=\"Fatal Fejl"],
+            ["<meta name=\"description\" content=\"Fatale fout"],
+            ["<meta name=\"description\" content=\"Erreur fatale"],
+            ["<meta name=\"description\" content=\"Fataler Fehler"],
+            ["<meta name=\"description\" content=\"Errore fatale"],
+            ["<meta name=\"description\" content=\"=内部エラーが発生しました="],
+            ["<meta name=\"description\" content=\"Mirtina Klaida"],
+            ["<meta name=\"description\" content=\"Fatalny błąd"],
+            ["<meta name=\"description\" content=\"Erro Fatal"],
+            ["<meta name=\"description\" content=\"Eroare fatală"],
+            ["<meta name=\"description\" content=\"Критическая ошибка"],
+            ["<meta name=\"description\" content=\"Fatálna chyba"],
+            ["<meta name=\"description\" content=\"Error fatal"],
+            ["<meta name=\"description\" content=\"Allvarligt fel"]
         ],
         response: {
             "title": "Fatal error",
