@@ -247,7 +247,10 @@ module.exports = [
         }
     },
     {
-        keywords: [["how", "enable", "friendly url"], ["how", "enable", "friendly urls"]],
+        keywords: [
+            ["how", "enable", "friendly url"],
+            ["how", "enable", "friendly urls"]
+        ],
         response: {
             "title": "Enabling friendly-urls",
             "footer": "",
@@ -255,5 +258,17 @@ module.exports = [
                 "If you want to enable friendly urls, please follow the steps over at https://docs.namelessmc.com/friendly-urls"
             ]
         }
+    },
+    {
+        keywords: [["<title>Please Wait... | Cloudflare</title>"]],
+        response: {
+            "title": "Cloudflare",
+            "footer": "",
+            "body": [
+                "Make sure \"under attack\" mode is disabled and API calls bypass the browser integrity check. You can do this by creating a page rule for `https://yourdomain/index.php?route=/api/*`. Set: 'Browser Integrity Check' to 'Off', 'Always Online' to 'Off', 'Cache Level' to 'Bypass'."
+            ]
+        }
     }
+
+
 ]
