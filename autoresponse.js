@@ -265,7 +265,7 @@ module.exports = [
             "title": "Cloudflare",
             "footer": "",
             "body": [
-                "Make sure \"under attack\" mode is disabled and API calls bypass the browser integrity check. You can do this by creating a page rule for `https://yourdomain/index.php?route=/api/*`. Set: 'Browser Integrity Check' to 'Off', 'Always Online' to 'Off', 'Cache Level' to 'Bypass'."
+                "Make sure \"under attack\" mode is disabled and API calls bypass the browser integrity check. You can do this by creating a page rule for `https://yourdomain/index.php?route=/api/*`. Set: 'Browser Integrity Check' to 'Off', 'Always Online' to 'Off', 'Cache Level' to 'Bypass'. Make a page rule by clicking on 'Rules' and then 'Page Rules' in your Cloudflare panel."
             ]
         }
     }
