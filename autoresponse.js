@@ -260,7 +260,10 @@ module.exports = [
         }
     },
     {
-        keywords: [["<title>Please Wait... | Cloudflare</title>"]],
+        keywords: [
+            ["<title>Please Wait... | Cloudflare</title>"],
+            ["Please wait while your request is being verified..."]
+        ],
         response: {
             "title": "Cloudflare",
             "footer": "",
