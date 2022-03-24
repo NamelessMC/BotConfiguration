@@ -268,6 +268,24 @@ module.exports = [
                 "Make sure \"under attack\" mode is disabled and API calls bypass the browser integrity check. You can do this by creating a page rule for `https://yourdomain/index.php?route=/api/*`. Set: 'Browser Integrity Check' to 'Off', 'Always Online' to 'Off', 'Cache Level' to 'Bypass'. Make a page rule by clicking on 'Rules' and then 'Page Rules' in your Cloudflare panel."
             ]
         }
+    },
+     {
+        keywords: [["badge", "colors"], ["badge", "colours"], ["badge", "color"], ["badge", "colour"], ["group html", "colors"], ["group html", "colours"], ["group html", "color"], ["group html", "colour"]],
+        response: {
+            "title": "Group HTML",
+            "footer": "",
+            "body": [
+                "Group HTML is HTML code that describes how your group will look like on pages like your profile, forum posts, etc.",
+                "",
+                "You can either use custom images for your group tags with `<img src=\"url/or/path/to/image.png\" alt=\"Group Tag\" width=\"200\" height=\"auto\">` HTML tag,",
+                "or you can use `<span class=\"badge badge-danger\">Name</span>` HTML tag with Bootstrap's default badge classes to get a simple colored group tag.",
+                "",
+                "Bootstrap class that defines color looks like this `badge-primary`, you can change the color by changing the 2nd part of that class with one of the following Bootstrap's default colors, `primary`, `secondary`, `success`, `danger`, `warning`, `info`, `light` & `dark`.",
+                "",
+                "If you wish to use a custom color for your badge you can do that by using this `<span class=\"badge\" style=\"color: #fff; background-color: #ff0000;\">Name</span>` HTML code.",
+                "And replacing `#ff0000` with the hex code of a color of your choice. You can get hex codes of a color by using [this](https://www.google.com/search?q=color+picker) tool."
+            ]
+        }
     }
 
 
