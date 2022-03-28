@@ -272,7 +272,7 @@ module.exports = [
             ]
         }
     },
-     {
+    {
         keywords: [["badge", "colors"], ["badge", "colours"], ["badge", "color"], ["badge", "colour"], ["group html", "colors"], ["group html", "colours"], ["group html", "color"], ["group html", "colour"]],
         response: {
             "title": "Group HTML",
@@ -289,7 +289,21 @@ module.exports = [
                 "And replacing `#ff0000` with the hex code of a color of your choice. You can get hex codes of a color by using [this](https://www.google.com/search?q=color+picker) tool."
             ]
         }
-    }
-
+    },
+    {
+        keywords: [
+            ["vendor/autoload.php): failed to open stream"],
+            ["vendor/autoload.php' (include_path="]
+        ],
+        response: {
+            "title": "Install composer dependencies",
+            "footer": "",
+            "body": [
+                "As of `2.0.0-pre13`, NamelessMC uses composer.",
+                "Run `composer install` from within your NamelessMC directory to download and install the dependencies.",
+                "In the chance you are not able to run commands (most budget webhosts don't allow it), you can download a zip with dependencies installed from https://ci.rkslot.nl/job/Nameless/"
+            ]
+        }
+    },
 
 ]
