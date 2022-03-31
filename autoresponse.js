@@ -185,6 +185,18 @@ module.exports = [
         }
     },
     {
+        keywords: [["SMTP Error: Could not authenticate"]],
+        response: {
+            "title": "PHPMailer Authentication",
+            "footer": "",
+            "body": [
+                "This error means that the username and password credentials or port you are attempting to use for SMTP emails are incorrect.",
+                "Double check that you have entered the correct information, and test with <https://www.smtper.net/>",
+                "For additional info, take a look at <https://docs.namelessmc.com/smtp/>"
+            ]
+        }
+    },
+    {
         keywords: [["Invalid reCAPTCHA response"]],
         response: {
             "title": "Invalid reCAPTCHA configuration",
