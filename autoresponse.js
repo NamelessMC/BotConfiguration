@@ -249,12 +249,29 @@ module.exports = [
         }
     },
     {
-        keywords: [["Announcements.php(50): Using $this when not in object context"], ["Undefined constant \"PAGE\""], ["ServerInfoEndpoint.php(163) 2: array_merge(): Expected parameter 2 to be an array, null given"], ["ServerInfoEndpoint.php(163) 8: Undefined variable: log_array"]],
+        keywords: [
+            ["Announcements.php(50): Using $this when not in object context"],
+            ["Undefined constant \"PAGE\""],
+            ["ServerInfoEndpoint.php(163) 2: array_merge(): Expected parameter 2 to be an array, null given"],
+            ["ServerInfoEndpoint.php(163) 8: Undefined variable: log_array"]
+        ],
         response: {
             "title": "Broken API in pr12",
             "footer": "",
             "body": [
                 "To fix these issues, please head to [this](https://github.com/NamelessMC/Nameless/issues/2446) page and apply the commits mentioned in the `Broken API` part. This will fix the issue"
+            ]
+        }
+    },
+    {
+        keywords: [
+            ["Undefined constant \"REQUEST_URI\""]
+        ],
+        response: {
+            "title": "Undefined constant \"REQUEST_URI\"",
+            "footer": "",
+            "body": [
+                "Please open core/init.php in a text editor and replace all occurrences of `$_SERVER[REQUEST_URI]` with `$_SERVER['REQUEST_URI']`"
             ]
         }
     },
