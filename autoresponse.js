@@ -334,5 +334,16 @@ module.exports = [
             ]
         }
     },
-
+    {
+        keywords: [
+            ["Minecraft username is invalid"],
+        ],
+        response: {
+            "title": "Allowing non-premium accounts to register",
+            "footer": "",
+            "body": [
+                "To allow cracked Minecraft accounts to register on your site, go to `StaffCP -> Integrations -> Minecraft -> Minecraft Account Verification` and disable `Force premium Minecraft accounts?`",
+            ]
+        }
+    },
 ]
