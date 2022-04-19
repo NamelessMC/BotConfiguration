@@ -36,7 +36,7 @@
       "getLink": "https://gitlab.com/snippets/{code}/raw"
     },
     {
-        "regex": "/https:\/\/pastebin\.com\/(\w+)(?:\.\w+)?/g",
+        "regex": "/https:\\/\\/pastebin\\.com\\/(\\w+)(?:\\.\\w+)?/g",
         "getLink": "https://pastebin.com/raw/{code}/"
     }
   ]
