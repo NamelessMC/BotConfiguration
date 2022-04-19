@@ -218,6 +218,18 @@ module.exports = [
             ]
         }
     },
+        {
+        keywords: [["how", "disable", "captcha"]],
+        response: {
+            "title": "Disabling captcha",
+            "footer": "",
+            "body": [
+                "You can manually disable captcha by going in `core/config.php` and setting the `captcha` setting to false.",
+                "",
+                "We recommend testing the captcha on registration **first** before setting it up on login. This way you can't lock yourself out."
+            ]
+        }
+    },
     {
         keywords: [["where", "find", "api"], ["how", "find", "api"]],
         response: {
