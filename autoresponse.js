@@ -101,7 +101,7 @@ module.exports = [
         }
     },
     {
-        keywords: [["777"]],
+        keywords: [[" 777"]],
         response: {
             "title": "Proper file permissions",
             "footer": "",
