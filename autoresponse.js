@@ -358,4 +358,17 @@ module.exports = [
             ]
         }
     },
+    {
+        keywords: [
+            ["Your bot might not be eligible to request a privileged intent such as GUILD_PRESENCES or GUILD_MEMBERS"],
+        ],
+        response: {
+            "title": "Nameless-Link selfhosting setup",
+            "footer": "",
+            "body": [
+                "Make sure you have enabled both listed intents within your Discord Developer Portal page for your bot instance.",
+                "For more information on how to properly self host Nameless-Link, please check out [this resource](https://github.com/NamelessMC/Nameless-Link/wiki/Installation-guide).",
+            ]
+        }
+    },
 ]
