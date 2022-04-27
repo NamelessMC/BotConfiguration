@@ -1,0 +1,9 @@
+{
+    "title": "Correct file ownership",
+    "footer": "",
+    "body": [
+        "When you installed your webserver, a dedicated user was automatically created on your system. On nearly all systems it's `www-data`, but it can also be `nginx`, `apache`, `www`, or something else. The `chmod -R` command can be used to recursively change ownership of a directory and its contents. Replace `/var/www/html` with the path to your NamelessMC installation directory.",
+        "",
+        "Example: `chown -R www-data: /var/www/html`"
+    ]
+}
