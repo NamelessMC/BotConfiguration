@@ -365,4 +365,24 @@ module.exports = [
             ]
         }
     },
+    {
+        keywords: [["compiled by a more recent version of the Java Runtime (class file version 61.0)"]],
+        response: {
+            "title": "Outdated Java",
+            "footer": "",
+            "body": [
+                "Please update your Java version to Java 17 or newer (17 is recommended, this is a long term support version)."
+            ]
+        }
+    },
+    {
+        keywords: [["compiled by a more recent version of the Java Runtime (class file version 55.0)"]],
+        response: {
+            "title": "Outdated Java",
+            "footer": "",
+            "body": [
+                "Please update your Java version to Java 11 or newer (11 or 17 are recommended, these are long term support versions)."
+            ]
+        }
+    },
 ]
