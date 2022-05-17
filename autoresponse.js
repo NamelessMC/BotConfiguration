@@ -385,4 +385,14 @@ module.exports = [
             ]
         }
     },
+    {
+        keywords: [["IOException: Read timed out"]],
+        response: {
+            "title": "Request time out",
+            "footer": "",
+            "body": [
+                "This error often occurs when your website is too slow to respond. If it occasionally happens, this error can be ignored. If it does happen very often, you should have a look at your website response time to see if things happen very slowly. A common cause for slow websites is the database being on a different machine than the website."
+            ]
+        }
+    }
 ]
