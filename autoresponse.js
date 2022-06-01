@@ -391,7 +391,9 @@ module.exports = [
             "title": "Request time out",
             "footer": "",
             "body": [
-                "This error often occurs when your website is too slow to respond. If it occasionally happens, this error can be ignored. If it does happen very often, you should have a look at your website response time to see if things happen very slowly. A common cause for slow websites is the database being on a different machine than the website."
+                "This error often occurs when your website is too slow to respond. If it happens occasionally, this error can be ignored. If it does happen very often, you should have a look at your website response time to see if things happen very slowly. A common cause for slow websites is the database being on a different machine than the website.",
+                "",
+                "Another potential cause is the website checking for a NamelessMC update, this check has been removed from the API in the next version. In addition, the API timeout has been relaxed in the next plugin version. This means that after updating to v2.0.0-pr13 (which will be released soon) the frequency of this error should be drastically reduced."
             ]
         }
     }
