@@ -42,7 +42,7 @@ module.exports = [
         response: {
             "title": "Invalid api method",
             "footer": "",
-            "body": ["The error `invalid api method` means that the way the enpoint was requested is not supported. This does **NOT** mean that the API is broken, it actually confirms that it IS working. This likely happened because you visited your API URL and got this error. When copy pasting the API URL into a browser, you are not specifying an API method, so the error is correct."]
+            "body": ["The error `invalid api method` means no API endpoint was provided or the provided API endpoint was invalid. This does **NOT** mean that the API is broken, it actually confirms that it IS working. This likely happened when visiting the API URL in a browser. When copy pasting the API URL into a browser, you are not specifying an API method, so the message is correct."]
         }
     },
     {
