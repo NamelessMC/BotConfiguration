@@ -132,7 +132,6 @@ module.exports = [
     },
     {
         keywords: [
-            ["500", "server", "error"],
             ["Sorry, but something went wrong while loading the page. Please contact an administrator."],
             ["<meta name=\"description\" content=\"Fatal Error"],
             ["<meta name=\"description\" content=\"致命错误"],
@@ -422,6 +421,19 @@ module.exports = [
                 "4. Did you correctly give that user permission to even access the database?",
                 "5. Do you have a firewall that is blocking connections?",
                 "6. Is your MySQL instance bound to `127.0.0.1` or `localhost` and you're trying to connect from outside the server?",
+            ]
+        }
+    },
+    {
+        keywords: [["HTTP ERROR 500"]],
+        response: {
+            "title": "webserver error",
+            "footer": "",
+            "body": [
+                "It looks like your web server is experiencing issues. Most common causes for this error is having wrong file permissions.",
+                "Check your webserver logs to find out what exactly is wrong. For Apache, the default path would be `/var/log/apache2/error.log`",
+                "For nginx, the default path is `/var/log/nginx/error.log`. Though these can be configured in the webservers themselves so yours may be somewher else.",
+                "If you are using a webhost, their dashboard usually has a section where you can view the webserver errors."
             ]
         }
     }
