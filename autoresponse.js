@@ -396,5 +396,15 @@ module.exports = [
                 "Another potential cause is the website checking for a NamelessMC update, this check has been removed from the API in the next version. In addition, the API timeout has been relaxed in the next plugin version. This means that after updating to v2.0.0-pr13 (which will be released soon) the frequency of this error should be drastically reduced."
             ]
         }
+    },
+    {
+        keywords: [["<script type=\"text/javascript\" src=\"/aes.js\" >"]],
+        response: {
+            "title": "api blocked",
+            "footer": "",
+            "body": [
+                "This error is usually caused by hosting providers blocking access to their api. If you are using a provider like `infinityfree`, please switch to a different hosting provider as they completely block access to your sites api."
+            ]
+        }
     }
 ]
