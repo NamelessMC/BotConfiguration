@@ -7,20 +7,6 @@ const hasGroupRule = (rules, column) => {
 module.exports = [
 
     debugLinkVersionCheck = {
-
-        debugLinkRequired: true,
-
-        // must have "how" and "discord" and at least one of the optional keywords
-        keywords: [
-            'how', // required
-            'discord', // required
-            [
-                'group sync', // optional
-                'rank sync', // optional
-                'role sync' // optional
-            ]
-        ],
-
         // returns an array which should be treated as the embed data, or nothing if this check has no errors
         execute: (debugData) => {
             const errors = (() => {
@@ -52,15 +38,6 @@ module.exports = [
 
     // another example...
     minecraftGroupSyncCheck = {
-        debugLinkRequired: true,
-        keywords: [
-            'minecraft',
-            [
-                'group sync',
-                'rank sync',
-                'role sync'
-            ]
-        ],
         execute: (debugData) => {
             const errors = (() => {
                 const errors = [];
