@@ -436,5 +436,18 @@ module.exports = [
                 "If you are using a webhost, their dashboard usually has a section where you can view the webserver errors."
             ]
         }
+    },
+    {
+        keywords: [["The widget is disabled for the specified discord server"]],
+        response: {
+            "title": "Discord widget",
+            "footer": "",
+            "body": [
+                "It appears that your discord widget is failing to load. This can be because of a few issues:",
+                "",
+                "1. Ensure that the discord ID you entered in `StaffCP -> Integrations -> Discord` is correct",
+                "2. Make sure that in your **discord** server settings. In the `Widget` section, the \"Enable Server Widget\" option is enabled"
+            ]
+        }
     }
 ]
