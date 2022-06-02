@@ -398,7 +398,7 @@ module.exports = [
         }
     },
     {
-        keywords: [["<script type=\"text/javascript\" src=\"/aes.js\" >"]],
+        keywords: [["/aes.js"]],
         response: {
             "title": "api blocked",
             "footer": "",
