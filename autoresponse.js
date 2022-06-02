@@ -132,6 +132,7 @@ module.exports = [
     },
     {
         keywords: [
+            ["500", "server", "error"],
             ["Sorry, but something went wrong while loading the page. Please contact an administrator."],
             ["<meta name=\"description\" content=\"Fatal Error"],
             ["<meta name=\"description\" content=\"致命错误"],
