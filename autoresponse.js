@@ -449,5 +449,25 @@ module.exports = [
                 "2. Make sure that in your **discord** server settings. In the `Widget` section, the \"Enable Server Widget\" option is enabled"
             ]
         }
-    }
+    },
+    {
+        keywords: [["Base table or view not found", "nl2_phinxlog"]],
+        response: {
+            "title": "Missing tables",
+            "footer": "",
+            "body": [
+                "This error can appear if you upgraded from pr12 to pr13 without following the update instructions; so without clicking the 'Update' button after uploading the update package. Please finish the update by visiting yoursite/index.php?route=/panel/upgrade in a web browser."
+            ]
+        }
+    },
+    {
+        keywords: [["Translation file not found"]],
+        response: {
+            "title": "Translation file not found",
+            "footer": "",
+            "body": [
+                "Ensure you don't have any modules installed that are not compatible with pr13. Please navigate to the modules directory and delete (or move) any outdated modules."
+            ]
+        }
+    },
 ]
