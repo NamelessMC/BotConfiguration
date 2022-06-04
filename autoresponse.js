@@ -456,7 +456,7 @@ module.exports = [
             "title": "Missing tables",
             "footer": "",
             "body": [
-                "This error can appear if you upgraded from pr12 to pr13 without following the update instructions; so without clicking the 'Update' button after uploading the update package. Please finish the update by visiting yoursite/index.php?route=/panel/upgrade in a web browser."
+                "This error can appear if you upgraded from pr12 to pr13 without following the update instructions; so without clicking the 'Update' button after uploading the update package. Please finish the update by visiting http://yoursite.com/index.php?route=/panel/upgrade in a web browser."
             ]
         }
     },
