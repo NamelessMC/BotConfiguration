@@ -438,7 +438,7 @@ module.exports = [
         }
     },
     {
-        keywords: [["The widget is disabled for the specified discord server"]],
+        keywords: [["The widget is disabled for the specified discord server"], ["\"message\": \"Widget Disabled\", \"code\": 50004"],
         response: {
             "title": "Discord widget",
             "footer": "",
