@@ -470,4 +470,14 @@ module.exports = [
             ]
         }
     },
+    {
+        keywords: [["Base table or view not found", "nl2_settings"]],
+        response: {
+            "title": "Installation issues",
+            "footer": "",
+            "body": [
+                "This is a known issue with pr13. Please go to https://github.com/NamelessMC/Nameless/issues/2822 and follow the steps mentioned in the \"`nl2_settings` not found during installation\" section", 
+            ]
+        }
+    }
 ]
