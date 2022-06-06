@@ -8,7 +8,7 @@ module.exports = [
 
     debugLinkVersionCheck = {
         // returns an array which should be treated as the embed data, or nothing if this check has no errors
-        execute: (debugData) => {
+        execute: (debugData, text) => {
             const errors = (() => {
                 if (debugData.debug_version !== 1) {
                     return [
@@ -38,7 +38,11 @@ module.exports = [
 
     // another example...
     minecraftGroupSyncCheck = {
-        execute: (debugData) => {
+        execute: (debugData, text) => {
+            if (!text.includes("group sync")) {
+                return false;
+            }
+            
             const errors = (() => {
                 const errors = [];
 
@@ -77,10 +81,10 @@ module.exports = [
             }
 
             return {
-                "title": "Discord Group Sync not working",
+                "title": "Minecraft Group Sync not working",
                 "footer": "",
                 "body": [
-                    "Troubleshooting steps for configuring Discord Group Sync:\n",
+                    "Troubleshooting steps for configuring Minecraft Group Sync:\n",
                     ...errors.map(error => `\`*\` ${error}`),
                 ]
             }
