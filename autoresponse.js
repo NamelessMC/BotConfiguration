@@ -408,19 +408,19 @@ module.exports = [
         }
     },
     {
-        keywords: [["SQLSTATE[HY000] [1045] Access denied for user"], ["SQLSTATE[HY000] [2002] Connection refused"]],
+        keywords: [["SQLSTATE", "Access denied for user"], ["SQLSTATE" "Connection refused"]],
         response: {
             "title": "Database connection issues",
             "footer": "Response based on the one from the Pterodactyl support server",
             "body": [
                 "Your database is refusing the site's attempt to connect to it. This can be because of a few reasons. Here are some:",
                 "",
-                "1. Are you sure you entered the correct credentials?",
-                "2. Is the MySQL instance running?",
-                "3. Is the user you are trying to connect with authorized to access the given database from the site's IP adress?",
-                "4. Did you correctly give that user permission to even access the database?",
-                "5. Do you have a firewall that is blocking connections?",
-                "6. Is your MySQL instance bound to `127.0.0.1` or `localhost` and you're trying to connect from outside the server?",
+                "**1.** Are you sure you entered the correct credentials?",
+                "**2.** Is the MySQL instance running?",
+                "**3.** Is the user you are trying to connect with authorized to access the given database from the site's IP adress?",
+                "**4.** Did you correctly give that user permission to even access the database?",
+                "**5.** Do you have a firewall that is blocking connections?",
+                "**6.** Is your MySQL instance bound to `127.0.0.1` or `localhost` and you're trying to connect from outside the server?",
             ]
         }
     },
