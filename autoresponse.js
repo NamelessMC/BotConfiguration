@@ -40,7 +40,7 @@ module.exports = [
     {
         keywords: [["invalid api method"]],
         response: {
-            "title": "Invalid api method",
+            "title": "Invalid API method",
             "footer": "",
             "body": ["The error `invalid api method` means no API endpoint was provided or the provided API endpoint was invalid. This does **NOT** mean that the API is broken, it actually confirms that it IS working. This likely happened when visiting the API URL in a browser. When copy pasting the API URL into a browser, you are not specifying an API method, so the message is correct."]
         }
@@ -400,7 +400,7 @@ module.exports = [
     {
         keywords: [["/aes.js"]],
         response: {
-            "title": "api blocked",
+            "title": "API blocked",
             "footer": "",
             "body": [
                 "This error is usually caused by hosting providers blocking access to their api. If you are using a provider like `infinityfree`, please switch to a different hosting provider as they completely block access to your sites api."
@@ -476,8 +476,18 @@ module.exports = [
             "title": "Installation issues",
             "footer": "",
             "body": [
-                "This is a known issue with pr13. Please go to https://github.com/NamelessMC/Nameless/issues/2822 and follow the steps mentioned in the \"`nl2_settings` not found during installation\" section", 
+                "This is a known issue with pr13. Please go to https://github.com/NamelessMC/Nameless/issues/2822 and follow the steps mentioned in the \"`nl2_settings` not found during installation\" section",
             ]
         }
-    }
+    },
+    {
+        keywords: [["java.lang.UnsupportedOperationException: JsonNull", "com.namelessmc.plugin.lib.nameless-api.Website.<init>(Website.java:48)"]],
+        response: {
+            title: "Null locale",
+            footer: "",
+            body: [
+                "Due to an issue with the v2-pr12 to v2-pr13 upgrader, your language might not be stored correctly. Please change your site's language to something else, save, then change it back again."
+            ]
+        }
+    },
 ]
