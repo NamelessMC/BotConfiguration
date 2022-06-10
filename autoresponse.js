@@ -414,7 +414,7 @@ module.exports = [
         }
     },
     {
-        keywords: [["SQLSTATE", "Access denied for user"], ["SQLSTATE" "Connection refused"]],
+        keywords: [["SQLSTATE", "Access denied for user"], ["SQLSTATE", "Connection refused"]],
         response: {
             "title": "Database connection issues",
             "footer": "Response based on the one from the Pterodactyl support server",
