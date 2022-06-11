@@ -235,16 +235,6 @@ module.exports = [
         }
     },
     {
-        keywords: [["Argument", "must be of type", "given"]],
-        response: {
-            "title": "PHP 8 issues",
-            "footer": "",
-            "body": [
-                "This issue occurs when the code is not yet compatible with PHP 8. If this happens within the functionality of a third party module or template, please contact the module/template author. You can fix this issue by **downgrading** to PHP 7.4 which fixes this issue."
-            ]
-        }
-    },
-    {
         keywords: [["how", "remove", "status page"]],
         response: {
             "title": "Removing the minecraft status page",
