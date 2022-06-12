@@ -477,7 +477,7 @@ module.exports = [
         }
     },
     {
-        keywords: [["java.lang.UnsupportedOperationException: JsonNull", "com.namelessmc.plugin.lib.nameless-api.Website.<init>(Website.java:48)"], ["java.lang.UnsupportedOperationException: JsonNull", "com.namelessmc.java_api.Website.<init>(Website.java:47)"]],
+        keywords: [["java.lang.UnsupportedOperationException: JsonNull", "com.namelessmc.plugin.lib.nameless-api.Website"]],
         response: {
             title: "Null locale",
             footer: "",
