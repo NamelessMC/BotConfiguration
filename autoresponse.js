@@ -497,4 +497,16 @@ module.exports = [
             ]
         }
     },
+    {
+        keywords: [["redirect_uri"], ["redirect_uri_mismatch"]],
+        response: {
+            title: "OAuth redirect URI misconfiguration",
+            footer: "",
+            body: [
+                "OAuth will only work correctly if you enter the correct Redirect URI in each providers configuration.",
+                "These URIs must *exactly* match your website URL. Extra characters and spaces will make them not work.",
+                "Ensure there are no extra ports in your website URL, and that the HTTP protocol matches."
+            ]
+        }
+    },
 ]
