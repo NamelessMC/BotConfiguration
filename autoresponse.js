@@ -486,4 +486,15 @@ module.exports = [
             ]
         }
     },
+    {
+        keywords: [["nameless:invalid_api_key"]],
+        response: {
+            title: "Invalid API key error with Spigot plugin",
+            footer: "",
+            body: [
+                "Some webservers might not pass the authorization header from the plugin to the NamelessMC API by default.",
+                "To fix this, add `CGIPassAuth On` to your `.htaccess` file in the root directory of your NamelessMC files."
+            ]
+        }
+    },
 ]
