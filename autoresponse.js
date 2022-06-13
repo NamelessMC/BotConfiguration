@@ -519,4 +519,14 @@ module.exports = [
             ],
         },
     },
+    {
+        keywords: [["AssetResolver", "gatherAsset", "null given"]],
+        response: {
+            title: "Util::determineOrder() broken in v2-pr13",
+            footer: "",
+            body: [
+                "Replace the contents of core/classes/Core/Util.php with this: https://paste.rkslot.nl/uqacohaqip.php",
+            ],
+        },
+    },
 ]
