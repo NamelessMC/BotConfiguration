@@ -509,4 +509,14 @@ module.exports = [
             ]
         }
     },
+    {
+        keywords: [["Field 'group_html_lg' doesn't have a default value"]],
+        response: {
+            title: "Field 'group_html_lg' doesn't have a default value",
+            footer: "",
+            body: [
+                "Edit your `nl2_groups` table to remove the `group_html_lg` column. This column should no longer exist in v2-pr13, but websites upgraded from earlier versions may still have it.",
+            ],
+        },
+    },
 ]
