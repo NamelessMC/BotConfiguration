@@ -156,8 +156,6 @@ module.exports = [
             "footer": "",
             "body": [
                 "Please find the full error message in the `/cache/logs/fatal-log.log` file or StaffCP > Configuration > Maintenance > Error Logs > Fatal log, and send it here.",
-                "",
-                "If you got this issue while using the API (e.g. Spigot plugin or Nameless-Link bot), please apply the API fixes [mentioned here](https://github.com/NamelessMC/Nameless/issues/2446) first."
             ]
         }
     },
