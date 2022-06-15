@@ -298,7 +298,7 @@ module.exports = [
             title: "Blocked by a firewall",
             footer: "",
             body: [
-                "The request is being blocked by a firewall. This response is probably sent by Imunify360 / Webshield. Please contact your hosting provider.".
+                "The request is being blocked by a firewall. This response is probably sent by Imunify360 / Webshield. Please contact your hosting provider.",
             ],
         },
     },
