@@ -584,7 +584,7 @@ module.exports = [
             title: "ServerInfoEndpoint validation issue in v2-pr13",
             footer: "",
             body: [
-                "Please replace the contents of the `modules/Core/includes/endpoints/ServerInfoEndpoint.php` file with https://paste.rkslot.nl/xayotubuwe.php",
+                "Please replace the contents of the `modules/Core/includes/endpoints/ServerInfoEndpoint.php` file with https://paste.rkslot.nl/raw/xayotubuwe",
             ],
         },
     },
