@@ -567,4 +567,15 @@ module.exports = [
             ],
         }
     },
+    {
+        keywords: [[":80", "https"]],
+        response: {
+            title: "Proxy misconfiguration",
+            footer: "",
+            body: [
+                "This likely occurs because a proxy is not setting the `X-Forwarded-Port` header properly.",
+                "Also ensure that if you are using cloudflare, the TLS mode is set to \"Full (strict)\""
+            ]
+        }
+    }
 ]
