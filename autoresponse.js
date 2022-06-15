@@ -68,7 +68,7 @@ module.exports = [
             "footer": "",
             "body": [
                "This error happens due to an error in the NamelessMC 404 page.",
-               "To fix this, go to core/Classes/Core/Pages.php and on line 20, replace `private array $_active_page;` with `private array $_active_page = [];`."      
+               "To fix this, go to core/Classes/Core/Pages.php and on line 20, replace `private array $_active_page;` with `private array $_active_page = [];`."
             ]
         }
     },
@@ -577,5 +577,15 @@ module.exports = [
                 "Also ensure that if you are using cloudflare, the TLS mode is set to \"Full (strict)\""
             ]
         }
-    }
+    },
+    {
+        keywords: [["invalid_post_contents", "tps"]],
+        response: {
+            title: "ServerInfoEndpoint validation issue in v2-pr13",
+            footer: "",
+            body: [
+                "Please replace the contents of the `modules/Core/includes/endpoints/ServerInfoEndpoint.php` file with https://paste.rkslot.nl/xayotubuwe.php",
+            ],
+        },
+    },
 ]
