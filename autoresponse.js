@@ -588,4 +588,14 @@ module.exports = [
             ],
         },
     },
+    {
+        keywords: [["Error loading language file general.php"]],
+        response: {
+            title: "Cannot load php language file",
+            footer: "",
+            body: [
+                "If you're using an older version before v2-pr13, make sure you don't install any modules made for v2-pr13 and up.",
+            ],
+        },
+    },
 ]
