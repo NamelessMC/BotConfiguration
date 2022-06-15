@@ -61,6 +61,17 @@ module.exports = [
            ]
         }
     },
+        {
+        keywords: [["Typed property Pages::$_active_page must not be accessed before initialization", "Typed property Pages::$_active_page", "be accessed before initialization"]],
+        response: {
+            "title": "404 page breaking",
+            "footer": "",
+            "body": [
+               "If you get this error, you need to replace a specific file in your NamelessMC installation.",
+               "The file you need to replace is core/Classes/Core/Pages.php and in line 20, replace "private array $_active_page;" with "private array $_active_page = [];"."      
+            ]
+        }
+    },
     {
         keywords: [["change", "api", "bot"]],
         response: {
