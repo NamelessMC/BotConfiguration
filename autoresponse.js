@@ -2,7 +2,7 @@ module.exports = [
     {
         keywords: [["how", "upload", "favicon"]],
         response: {
-            "title": "Adding a Favicon to v2",
+            "title": "Adding a favicon to v2",
             "footer": "",
             "body": [
                 "1. Make sure your favicon is named `favicon.ico` (note the .ico format - for example don't rename a .png to a .ico)",
@@ -18,10 +18,10 @@ module.exports = [
             ["404 Not Found", "nginx"]
         ],
         response: {
-            "title": "Friendly Urls",
-            "footer": "To disable friendly urls, go to `core/config.php` and change \"friendly\" from \"true\" to \"false\".",
+            "title": "Friendly URLs",
+            "footer": "To disable friendly URLs, go to `core/config.php` and change \"friendly\" from \"true\" to \"false\".",
             "body": [
-                "In order to use friendly urls on your v2 website, your webserver needs to be properly configured. You can have a look on how to do it over at our documentation at https://docs.namelessmc.com/friendly-urls/"
+                "In order to use friendly URLs on your v2 website, your webserver needs to be properly configured. You can have a look on how to do it over at our documentation at https://docs.namelessmc.com/friendly-urls/"
             ]
         }
     },
@@ -42,13 +42,13 @@ module.exports = [
         response: {
             "title": "Invalid API method",
             "footer": "",
-            "body": ["The error `invalid api method` means no API endpoint was provided or the provided API endpoint was invalid. This does **NOT** mean that the API is broken, it actually confirms that it IS working. This likely happened when visiting the API URL in a browser. When copy pasting the API URL into a browser, you are not specifying an API method, so the message is correct."]
+            "body": ["The 'Invalid API Method' error means no API endpoint was provided or the provided API endpoint was invalid. This does **NOT** mean that the API is broken, it actually confirms that it IS working. This likely happened when visiting the API URL in a browser. When copy pasting the API URL into a browser, you are not specifying an API method, so the message is correct."]
         }
     },
     {
         keywords: [["unable to load template 'file"]],
         response: {
-            "title": "Unable To Load Template File",
+            "title": "Unable to load template file",
             "footer": "",
             "body": [
                "When you get an error that says \"Unable to load template file:\" `module-name/some-file.tpl` or `some-file.tpl`, it means that either your panel template or your website template (depending on where the error occurs), is missing that module's template file(s).",
@@ -90,7 +90,7 @@ module.exports = [
             "title": "Invalid token",
             "footer": "",
             "body": [
-                "This error will likely occur when your template is outdated. This is due to a change in pr12 which causes issues causing this error. To fix this, update your template to the most recent version if it is available (it should support pr12). If your template has not been updated yet, try switching to the default template to fix the issue temporarily. After this, attempt to clear your panel template cache."
+                "This error will likely occur when your template is outdated. This is due to a change in v2-pr12 which causes issues causing this error. To fix this, update your template to the most recent version if it is available (it should support v2-pr12). If your template has not been updated yet, try switching to the default template to fix the issue temporarily. After this, attempt to clear your panel template cache."
             ]
         }
     },
@@ -179,7 +179,7 @@ module.exports = [
     {
         keywords: [["SMTP Error: Could not authenticate"]],
         response: {
-            "title": "PHPMailer Authentication",
+            "title": "PHPMailer authentication",
             "footer": "",
             "body": [
                 "This error means that the username and password credentials or port you are attempting to use for SMTP emails are incorrect.",
@@ -250,7 +250,7 @@ module.exports = [
             ["ServerInfoEndpoint.php(163) 8: Undefined variable: log_array"]
         ],
         response: {
-            "title": "Broken API in pr12",
+            "title": "Broken API in v2-pr12",
             "footer": "",
             "body": [
                 "To fix these issues, please head to [this](https://github.com/NamelessMC/Nameless/issues/2446) page and apply the commits mentioned in the `Broken API` part. This will fix the issue"
@@ -275,10 +275,10 @@ module.exports = [
             ["how", "enable", "friendly urls"]
         ],
         response: {
-            "title": "Enabling friendly-urls",
+            "title": "Enabling friendly URLs",
             "footer": "",
             "body": [
-                "If you want to enable friendly urls, please follow the steps over at https://docs.namelessmc.com/friendly-urls"
+                "If you want to enable friendly URLs, please follow the steps over at https://docs.namelessmc.com/friendly-urls"
             ]
         }
     },
@@ -345,7 +345,7 @@ module.exports = [
             ["Your bot might not be eligible to request a privileged intent such as GUILD_PRESENCES or GUILD_MEMBERS"],
         ],
         response: {
-            "title": "Nameless-Link self-hosting setup",
+            "title": "Missing privileged intents for Nameless-Link in self-hosting setup",
             "footer": "",
             "body": [
                 "Make sure you have enabled the guild members intent within your Discord Developer Portal page for your bot instance.",
@@ -359,7 +359,7 @@ module.exports = [
             "title": "Outdated Java",
             "footer": "",
             "body": [
-                "Please update your Java version to Java 17 or newer (17 is recommended, this is a long term support version)."
+                "Please update your Java version to Java 17 or newer (17 is recommended, this is a long term support version).",
             ]
         }
     },
@@ -369,7 +369,7 @@ module.exports = [
             "title": "Outdated Java",
             "footer": "",
             "body": [
-                "Please update your Java version to Java 11 or newer (11 or 17 are recommended, these are long term support versions)."
+                "Please update your Java version to Java 11 or newer (11 or 17 are recommended, these are long term support versions).",
             ]
         }
     },
@@ -397,7 +397,7 @@ module.exports = [
             "title": "API blocked",
             "footer": "",
             "body": [
-                "This error is usually caused by hosting providers blocking access to their api. If you are using a provider like `infinityfree`, please switch to a different hosting provider as they completely block access to your sites api."
+                "This error is usually caused by hosting providers blocking access to their api. If you are using a provider like InfinityFree, please switch to a different hosting provider as they completely block access to your sites API.",
             ]
         }
     },
@@ -427,7 +427,7 @@ module.exports = [
                 "It looks like your web server is experiencing issues. Most common causes for this error is having wrong file permissions.",
                 "Check your webserver logs to find out what exactly is wrong. For Apache, the default path would be `/var/log/apache2/error.log`",
                 "For nginx, the default path is `/var/log/nginx/error.log`. Though these can be configured in the webservers themselves so yours may be somewher else.",
-                "If you are using a webhost, their dashboard usually has a section where you can view the webserver errors."
+                "If you are using a webhost, their dashboard usually has a section where you can view the webserver errors.",
             ]
         }
     },
@@ -440,7 +440,7 @@ module.exports = [
                 "It appears that your discord widget is failing to load. This can be because of a few issues:",
                 "",
                 "1. Ensure that the discord ID you entered in `StaffCP -> Integrations -> Discord` is correct",
-                "2. Make sure that in your **discord** server settings. In the `Widget` section, the \"Enable Server Widget\" option is enabled"
+                "2. Make sure that in your **discord** server settings. In the `Widget` section, the \"Enable Server Widget\" option is enabled",
             ]
         }
     },
@@ -450,7 +450,9 @@ module.exports = [
             "title": "Missing tables",
             "footer": "",
             "body": [
-                "This error can appear if you upgraded from pr12 to pr13 without following the update instructions; so without clicking the 'Update' button after uploading the update package. Please finish the update by visiting http://yoursite.com/index.php?route=/panel/upgrade in a web browser."
+                "This error can appear if you upgraded from v2-pr12 to v2-pr13 without clicking the 'Update' button after uploading the update package. Please finish the update by visiting http://yoursite.com/index.php?route=/panel/upgrade manually in a web browser.",
+                "",
+                "Please note that this URL uses \"upgrade\" not \"update\" like the update page itself. If you still get an error after this step, it is likely something else. Please check your log file again.",
             ]
         }
     },
@@ -480,7 +482,7 @@ module.exports = [
             title: "Null locale",
             footer: "",
             body: [
-                "Due to an issue with the v2-pr12 to v2-pr13 upgrader, your language might not be stored correctly. Please change your site's language to something else, save, then change it back again."
+                "Due to an issue with the v2-pr12 to v2-pr13 upgrader, your language might not be stored correctly. Please change your site's language to something else, save, then change it back again.",
             ]
         }
     },
@@ -491,7 +493,7 @@ module.exports = [
             footer: "",
             body: [
                 "Some webservers might not pass the authorization header from the plugin to the NamelessMC API by default.",
-                "To fix this, add `CGIPassAuth On` to your `.htaccess` file in the root directory of your NamelessMC files."
+                "To fix this, add `CGIPassAuth On` to your `.htaccess` file in the root directory of your NamelessMC files.",
             ]
         }
     },
@@ -503,7 +505,7 @@ module.exports = [
             body: [
                 "OAuth will only work correctly if you enter the correct Redirect URI in each providers configuration.",
                 "These URIs must *exactly* match your website URL. Extra characters and spaces will make them not work.",
-                "Ensure there are no extra ports in your website URL, and that the HTTP protocol matches."
+                "Ensure there are no extra ports in your website URL, and that the HTTP protocol matches.",
             ]
         }
     },
@@ -526,5 +528,25 @@ module.exports = [
                 "Replace the contents of core/classes/Core/Util.php with this: https://paste.rkslot.nl/uqacohaqip.php",
             ],
         },
+    },
+    {
+        keywords: [["NoClassDefFoundError", "kyori", "adventure"]],
+        response: {
+            title: "Nameless-Plugin \"Paper\" jar",
+            footer: "",
+            body: [
+                "Please note that the \"Paper\" jar can only be used for modern paper versions. If you must use an old, unmaintained paper version, install the \"Spigot\" plugin jar instead.",
+            ],
+        }
+    },
+    {
+        keywords: [["IllegalPluginAccessException", "register", "disabled"]],
+        response: {
+            title: "IllegalPluginAccessException: Plugin attempted to register task while disabled",
+            footer: "",
+            body: [
+                "The plugin failed to load, please check for errors during the plugin loading stage of server startup.",
+            ],
+        }
     },
 ]
