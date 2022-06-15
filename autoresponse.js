@@ -532,7 +532,7 @@ module.exports = [
             title: "Util::determineOrder() broken in v2-pr13",
             footer: "",
             body: [
-                "Replace the contents of core/classes/Core/Util.php with this: https://paste.rkslot.nl/uqacohaqip.php",
+                "Replace the contents of core/classes/Core/Util.php with this: https://paste.rkslot.nl/raw/uqacohaqip",
             ],
         },
     },
