@@ -62,6 +62,17 @@ module.exports = [
         }
     },
     {
+        keywords: [["Typed property Pages::$_active_page must not be accessed before initialization"]],
+        response: {
+            "title": "404 page breaking",
+            "footer": "",
+            "body": [
+               "This error happens due to an error in the NamelessMC 404 page.",
+               "To fix this, go to core/Classes/Core/Pages.php and on line 20, replace `private array $_active_page;` with `private array $_active_page = [];`."      
+            ]
+        }
+    },
+    {
         keywords: [["change", "api", "bot"]],
         response: {
             "title": "Change API Key for Nameless Link Discord bot",
