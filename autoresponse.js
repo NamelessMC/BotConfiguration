@@ -283,10 +283,7 @@ module.exports = [
         }
     },
     {
-        keywords: [
-            ["<title>Please Wait... | Cloudflare</title>"],
-            ["Please wait while your request is being verified..."]
-        ],
+        keywords: [["<title>Please Wait... | Cloudflare</title>"]],
         response: {
             "title": "Cloudflare",
             "footer": "",
@@ -294,6 +291,16 @@ module.exports = [
                 "CloudFlare is blocking the API request. Please disable proxy in CloudFlare (DNS only) or add an exception: https://docs.namelessmc.com/cloudflare-api"
             ]
         }
+    },
+    {
+        keywords: [["Please wait while your request is being verified..."]],
+        response: {
+            title: "Blocked by a firewall",
+            footer: "",
+            body: [
+                "The request is being blocked by a firewall. This response is probably sent by Imunify360 / Webshield. Please contact your hosting provider.".
+            ],
+        },
     },
     {
         keywords: [["badge", "colors"], ["badge", "colours"], ["badge", "color"], ["badge", "colour"], ["group html", "colors"], ["group html", "colours"], ["group html", "color"], ["group html", "colour"]],
