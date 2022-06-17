@@ -608,4 +608,14 @@ module.exports = [
             ],
         },
     },
+    {
+        keywords: [["Error", "Cannot use object of type stdClass as array", "LatestPostsWidget"]],
+        response: {
+            title: "Latest posts widget issue in v2-pr13",
+            footer: "",
+            body: [
+                "Please turn off the latests posts widget until v2 is released, or apply this change manually: https://github.com/NamelessMC/Nameless/commit/8ba42f7a839a4f4f5586f8ad8153c44b8034d35d",
+            ],
+        },
+    },
 ]
