@@ -618,4 +618,19 @@ module.exports = [
             ],
         },
     },
+    {
+        keywords: [
+            ["ingame plugin not set up"],
+            ["in-game plugin not set up"],
+            ["ingame plugin not setup"],
+            ["in-game plugin not setup"],
+        ],
+        response: {
+            title: "Group sync: 'In-game plugin not set up'",
+            footer: "",
+            body: [
+                "Ensure the 'server data sender' is enabled in your plugin config file, and `server-id` is configured correctly.",
+            ],
+        },
+    },
 ]
