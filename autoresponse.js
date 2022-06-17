@@ -463,7 +463,10 @@ module.exports = [
         }
     },
     {
-        keywords: [["Base table or view not found", "nl2_phinxlog"]],
+        keywords: [
+            ["Base table or view not found", "nl2_phinxlog"],
+            ["Frame", "VerifyMinecraftEndpoint"],
+        ],
         response: {
             "title": "Missing tables",
             "footer": "",
