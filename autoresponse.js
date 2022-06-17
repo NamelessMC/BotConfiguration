@@ -598,4 +598,14 @@ module.exports = [
             ],
         },
     },
+    {
+        keywords: [["MCQuery", "TypeError", "Cannot access offset of type string on string"]],
+        response: {
+            title: "Query motd bug in v2-pr13",
+            footer: "",
+            body: [
+                "Please apply this change: https://github.com/NamelessMC/Nameless/commit/4ab19bfebc2ec3d59d8c7b436b4dcb8de6e51e27",
+            ],
+        },
+    },
 ]
