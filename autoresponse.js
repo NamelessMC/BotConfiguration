@@ -636,4 +636,29 @@ module.exports = [
             ],
         },
     },
+    {
+        keywords: [["nginx", "403 Forbidden"]],
+        response: {
+            title: "NGINX forbidden",
+            footer: "",
+            body: [
+                "The most likely causes for this error are:",
+                "1. Wrong `root` path in nginx config",
+                "2. Misconfigured index, it should be: `index index.php index.html`",
+                "3. Nameless files not uploaded, not extracted, or not in the right directory.",
+            ],
+        },
+    },
+    {
+        keywords: [["nginx", "502 Bad Gateway"]],
+        response: {
+            title: "NGINX bad gateway",
+            footer: "",
+            body: [
+                "The most likely causes for this error are:",
+                "1. You have entered the wrong socket path for php-fpm. Check if the socket file exists, and if it doesn't, look for a similarly named socket file in the same directory and enter that instead. For example, you might need to enter `/var/run/php-fpm.sock` instead of `/var/run/php7.4-fpm.sock`. The actual socket path depends on your operating system.",
+                "2. If you are using a proxy, this appears if the proxy server can't reach your backend webserver. Ensure your backend webserver is running and the proxy is configured correctly.",
+            ],
+        },
+    },
 ]
