@@ -333,21 +333,6 @@ module.exports = [
     },
     {
         keywords: [
-            ["vendor/autoload.php): failed to open stream"],
-            ["vendor/autoload.php' (include_path="]
-        ],
-        response: {
-            "title": "Install composer dependencies",
-            "footer": "",
-            "body": [
-                "As of `2.0.0-pre13`, NamelessMC uses composer.",
-                "Run `composer install` from within your NamelessMC directory to download and install the dependencies.",
-                "In the chance you are not able to run commands (most budget webhosts don't allow it), you can download a zip with dependencies installed from https://ci.rkslot.nl/job/Nameless/"
-            ]
-        }
-    },
-    {
-        keywords: [
             ["Minecraft username is invalid"],
         ],
         response: {
