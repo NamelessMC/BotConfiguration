@@ -57,7 +57,9 @@ module.exports = [
                "",
                "For custom templates, with premium templates the module template files should've already been included with the template, if they are not, contact the template author. For free templates, module support is usually pretty shaky, and possibilty for the module support being added is pretty low.",
                "",
-               "Most panel templates in the resources page at this time don't support most modules, so you should either wait for the support to be added or use the \"Default\" panel template instead."
+               "Most panel templates in the resources page at this time don't support most modules, so you should either wait for the support to be added or use the \"Default\" panel template instead.",
+               "",
+               "To force your template to be reset to \"DefaultRevamp\", delete the file `cache/b1ef26a8913c5b4c085921a013f66a13c3687c1c.cache`, and make sure it is enabled and default in the `nl2_templates` MySQL table."
            ]
         }
     },
