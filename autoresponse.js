@@ -564,7 +564,7 @@ module.exports = [
             footer: "",
             body: [
                 "This likely occurs because a proxy is not setting the `X-Forwarded-Port` header properly.",
-                "Also ensure that if you are using cloudflare, the TLS mode is set to \"Full (strict)\""
+                "Also ensure that if you are using Cloudflare (with proxy enabled), the TLS mode is set to \"Full (strict)\""
             ]
         }
     },
