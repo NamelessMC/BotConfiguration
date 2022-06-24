@@ -610,10 +610,8 @@ module.exports = [
     },
     {
         keywords: [
-            ["ingame plugin not set up"],
-            ["in-game plugin not set up"],
-            ["ingame plugin not setup"],
-            ["in-game plugin not setup"],
+            ["plugin not set up"],
+            ["plugin not setup"],
         ],
         response: {
             title: "Group sync: 'In-game plugin not set up'",
