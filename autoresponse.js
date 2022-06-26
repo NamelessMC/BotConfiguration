@@ -558,7 +558,7 @@ module.exports = [
         }
     },
     {
-        keywords: [[":80", "https"]],
+        keywords: [["port 80", "https"], [":80", "https://", "api/v2"]],
         response: {
             title: "Proxy misconfiguration",
             footer: "",
