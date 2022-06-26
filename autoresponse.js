@@ -500,13 +500,16 @@ module.exports = [
     {
         keywords: [["nameless:invalid_api_key"]],
         response: {
-            title: "Invalid API key error with Spigot plugin",
+            title: "Invalid API key",
             footer: "",
             body: [
-                "Some webservers might not pass the authorization header from the plugin to the NamelessMC API by default.",
-                "To fix this, add `CGIPassAuth On` to your `.htaccess` file in the root directory of your NamelessMC files.",
-            ]
-        }
+                "This message has several possible causes:",
+                "",
+                "1. Your API key is invalid",
+                "2. Your web server is not passing the Authorization header to NamelessMC. Try `CGIPassAuth On` to your `.htaccess` file in the root directory of your NamelessMC files.",
+                "3. Your web server is passing the Authorization header, but in an usual case. Headers should be case sensitive but weren't in v2-pr13. This has been fixed properly for the next version, for now edit `core/classes/Endpoints/KeyAuthEndpoint.php` and 1) replace `$headers = getallheaders();` with `$headers = array_change_key_case(getallheaders(), CASE_LOWER);` and 2) replace `$headers['Authorization']` with `$headers['authorization']` (2 times!)",
+            ],
+        },
     },
     {
         keywords: [["redirect_uri"], ["redirect_uri_mismatch"]],
