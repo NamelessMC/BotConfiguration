@@ -456,9 +456,11 @@ module.exports = [
         keywords: [
             ["Base table or view not found", "nl2_phinxlog"],
             ["Frame", "VerifyMinecraftEndpoint"],
+            ["VerifyMinecraftEndpoint", "abstract method"],
+            ["VerifyDiscordEndpoint", "abstract method"],
         ],
         response: {
-            "title": "Missing tables",
+            "title": "Upgrader did not run",
             "footer": "",
             "body": [
                 "This error can appear if you upgraded from v2-pr12 to v2-pr13 without clicking the 'Update' button after uploading the update package. Please finish the update by visiting http://yoursite.com/index.php?route=/panel/upgrade manually in a web browser.",
