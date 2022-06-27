@@ -514,6 +514,21 @@ module.exports = [
         },
     },
     {
+        keywords: [
+            ["port 80", "https"],
+            [":80", "https://", "api/v2"],
+            ["SSLException", "plaintext connection"],
+        ],
+        response: {
+            title: "Proxy misconfiguration, HTTPS with port 80",
+            footer: "",
+            body: [
+                "This likely occurs because a proxy is not setting the `X-Forwarded-Port` header properly.",
+                "Also ensure that if you are using Cloudflare (with proxy enabled), the TLS mode is set to \"Full (strict)\""
+            ]
+        }
+    },
+    {
         keywords: [["redirect_uri"], ["redirect_uri_mismatch"]],
         response: {
             title: "OAuth redirect URI misconfiguration",
@@ -563,21 +578,6 @@ module.exports = [
             body: [
                 "The plugin failed to load, please check for errors during the plugin loading stage of server startup.",
             ],
-        }
-    },
-    {
-        keywords: [
-            ["port 80", "https"],
-            [":80", "https://", "api/v2"],
-            ["SSLException", "plaintext connection"],
-        ],
-        response: {
-            title: "Proxy misconfiguration, HTTPS with port 80",
-            footer: "",
-            body: [
-                "This likely occurs because a proxy is not setting the `X-Forwarded-Port` header properly.",
-                "Also ensure that if you are using Cloudflare (with proxy enabled), the TLS mode is set to \"Full (strict)\""
-            ]
         }
     },
     {
