@@ -434,7 +434,7 @@ module.exports = [
             "body": [
                 "It looks like your web server is experiencing issues. Most common causes for this error is having wrong file permissions.",
                 "Check your webserver logs to find out what exactly is wrong. For Apache, the default path would be `/var/log/apache2/error.log`",
-                "For nginx, the default path is `/var/log/nginx/error.log`. Though these can be configured in the webservers themselves so yours may be somewher else.",
+                "For nginx, the default path is `/var/log/nginx/error.log`. Though these can be configured in the webservers themselves so yours may be somewhere else.",
                 "If you are using a webhost, their dashboard usually has a section where you can view the webserver errors.",
             ]
         }
