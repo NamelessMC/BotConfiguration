@@ -162,7 +162,8 @@ module.exports = [
             ["<meta name=\"description\" content=\"Критическая ошибка"],
             ["<meta name=\"description\" content=\"Fatálna chyba"],
             ["<meta name=\"description\" content=\"Error fatal"],
-            ["<meta name=\"description\" content=\"Allvarligt fel"]
+            ["<meta name=\"description\" content=\"Allvarligt fel"],
+            ["fatal error"],
         ],
         response: {
             "title": "Fatal error",
