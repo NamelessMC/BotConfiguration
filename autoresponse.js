@@ -691,4 +691,14 @@ module.exports = [
             ],
         },
     },
+    {
+        keywords: [["MCQuery", "must be of type bool", "null given", "ExternalMCQuery"]],
+        response: {
+            title: "External query bedrock setting issue in v2-pr13",
+            footer: "",
+            body: [
+                "Please replace the contents of the `core/classes/Minecraft/MCQuery.php` file with [this](https://raw.githubusercontent.com/NamelessMC/Nameless/21825f657a84bb2184866aa8addbf1060783c724/core/classes/Minecraft/MCQuery.php)",
+            ],
+        },
+    },
 ]
