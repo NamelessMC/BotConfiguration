@@ -669,4 +669,16 @@ module.exports = [
             ],
         },
     },
+    {
+        keywords: [["column", "username", "cannot be null"]],
+        response: {
+            title: "Integrity constraint violation: 1048 Column 'username' cannot be null",
+            footer: "",
+            body: [
+                "Please edit the `nl2_users_integrations` table structure to remove the `username` column",
+                "",
+                "For a detailed walkthrough, see this conversation: https://discord.com/channels/246705793066467328/247865182477484032/984308658986950727",
+            ],
+        },
+    },
 ]
