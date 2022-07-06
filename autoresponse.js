@@ -701,4 +701,14 @@ module.exports = [
             ],
         },
     },
+    {
+        keywords: [["max key length is 767 bytes"]],
+        response: {
+            title: "Outdated database server",
+            footer: "",
+            body: [
+                "Please update your MySQL server to at least version `5.7`, or MariaDB version `10.3`.",
+            ],
+        },
+    }
 ]
