@@ -678,7 +678,7 @@ module.exports = [
             title: "Specified key was too long; max key length is 767 bytes",
             footer: "",
             body: [
-                "Please update to a more recent version of MariaDB or MySQL with support for longer indexes. If you use a webhost, please contact them or move to a different web hosting provider. If you configured a server yourself, make sure it is upgraded to the newest release of your Linux distribution. Most Linux distributions include a new enough MariaDB version, so you don't need to install it from third party sources.",
+                "Please update to a more recent version of MariaDB (10.3+) or MySQL (5.7+) with support for longer indexes. If you use a webhost, please contact them or move to a different web hosting provider. If you configured a server yourself, make sure it is upgraded to the newest release of your Linux distribution. Most Linux distributions include a new enough MariaDB version, so you don't need to install it from third party sources.",
             ],
         },
     },
@@ -714,14 +714,4 @@ module.exports = [
             ],
         },
     },
-    {
-        keywords: [["max key length is 767 bytes"]],
-        response: {
-            title: "Outdated database server",
-            footer: "",
-            body: [
-                "Please update your MySQL server to at least version `5.7`, or MariaDB version `10.3`.",
-            ],
-        },
-    }
 ]
