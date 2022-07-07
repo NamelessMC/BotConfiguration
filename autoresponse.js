@@ -460,12 +460,12 @@ module.exports = [
             ["VerifyDiscordEndpoint", "abstract method"],
         ],
         response: {
-            "title": "Upgrader did not run",
+            "title": "Files were not deleted during upgrade",
             "footer": "",
             "body": [
                 "This error can appear if you upgraded from v2-pr12 to v2-pr13 without clicking the 'Update' button after uploading the update package. Please finish the update by visiting http://yoursite.com/index.php?route=/panel/upgrade manually in a web browser.",
                 "",
-                "Please note that this URL uses \"upgrade\" not \"update\" like the update page itself. If you still get an error after this step, it is likely something else. Please check your log file again.",
+                "It is also possible that you did run the upgrader, but your files had incorrect permissions and as a result NamelessMC was not able to delete them. Please manually delete any *Endpoint.php files affected by this error, until your website loads (or you get a different error). Be careful to not delete other files!",
             ]
         }
     },
