@@ -705,7 +705,7 @@ module.exports = [
         },
     },
     {
-        keywords: [["MCQuery", "must be of type bool", "null given", "ExternalMCQuery"]],
+        keywords: [["ExternalMCQuery", "must be of type bool", "null given"]],
         response: {
             title: "External query bedrock setting issue in v2-pr13",
             footer: "",
