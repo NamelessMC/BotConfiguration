@@ -75,16 +75,6 @@ module.exports = [
         }
     },
     {
-        keywords: [["change", "api", "bot"]],
-        response: {
-            "title": "Change API Key for Nameless Link Discord bot",
-            "footer": "",
-            "body": [
-                "If you want to change the API URL of the Nameless Link Discord bot, use the slash command `/apiurl <url>` in your discord server. If the slash commands do not exist, try re-inviting the discord bot."
-            ]
-        }
-    },
-    {
         keywords: [["upload failed, unknown error occured"]],
         response: {
             "title": "Folder is not writeable",
@@ -713,5 +703,15 @@ module.exports = [
                 "Please replace the contents of the `core/classes/Minecraft/MCQuery.php` file with [this](https://raw.githubusercontent.com/NamelessMC/Nameless/21825f657a84bb2184866aa8addbf1060783c724/core/classes/Minecraft/MCQuery.php)",
             ],
         },
+    },
+    {
+        keywords: [["change", "api", "bot"]],
+        response: {
+            "title": "Change API Key for Nameless Link Discord bot",
+            "footer": "",
+            "body": [
+                "If you want to change the API URL of the Nameless Link Discord bot, use the slash command `/apiurl <url>` in your discord server. If the slash commands do not exist, try re-inviting the discord bot."
+            ]
+        }
     },
 ]
