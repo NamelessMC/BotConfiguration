@@ -5,37 +5,6 @@ const hasGroupRule = (rules, column) => {
 }
 
 module.exports = [
-
-    debugLinkVersionCheck = {
-        // returns an array which should be treated as the embed data, or nothing if this check has no errors
-        execute: (debugData, text) => {
-            const errors = (() => {
-                if (debugData.debug_version !== 1) {
-                    return [
-                        "use version 1 debug version"
-                    ];
-                }
-
-               return true;
-            })();
-
-            if (errors === true) {
-                // no errors
-                return;
-            }
-
-            return {
-                "title": "Discord Group Sync not working",
-                "footer": "",
-                "body": [
-                    "Troubleshooting steps for configuring Discord Group Sync:\n",
-                    ...errors.map(error => `\`*\` ${error}`),
-                ]
-            }
-        }
-
-    },
-
     // another example...
     minecraftGroupSyncCheck = {
         execute: (debugData, text) => {
