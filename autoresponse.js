@@ -714,4 +714,22 @@ module.exports = [
             ]
         }
     },
+    {
+        keywords: [["Column 'username' cannot be null"]],
+        response: {
+            "title": "Issue with OAuth",
+            "footer": "",
+            "body": [
+                "To fix this issue, do the following:",
+                "",
+                "`1.` Open your database with a tool like PHPMyAdmin",
+                "`2.` Find your database and then find the nl2_users_integrations table inside that [image](https://imgur.com/dArlmmD)",
+                "`3.` Click the structure tab at the top of the page after you've selected the table and find the username row [image](https://imgur.com/jgRJx71)",
+                "`4.` Find the username row and click \"Change\". [image](https://imgur.com/SUN1pjf)",
+                "`5.` Click the checkbox that says \"Null\", then click Save on the bottom right.",
+                "",
+                "The issue should now be fixed."
+            ]
+        }
+    }
 ]
