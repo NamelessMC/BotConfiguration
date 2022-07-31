@@ -698,9 +698,9 @@ module.exports = [
     {
         keywords: [["change", "api", "bot"]],
         response: {
-            "title": "Change API Key for Nameless Link Discord bot",
-            "footer": "",
-            "body": [
+            title: "Change API Key for Nameless Link Discord bot",
+            footer: "",
+            body: [
                 "If you want to change the API URL of the Nameless Link Discord bot, use the slash command `/apiurl <url>` in your discord server. If the slash commands do not exist, try re-inviting the discord bot."
             ]
         }
@@ -708,9 +708,9 @@ module.exports = [
     {
         keywords: [["column", "username", "cannot be null"]],
         response: {
-            "title": "Issue with OAuth",
-            "footer": "",
-            "body": [
+            title: "Issue with OAuth",
+            footer: "",
+            body: [
                 "To fix this issue, do the following:",
                 "",
                 "`1.` Open your database with a tool like PHPMyAdmin",
@@ -722,5 +722,15 @@ module.exports = [
                 "The issue should now be fixed."
             ]
         }
-    }
+    },
+    {
+        keywords: [["must be of type Countable", "MCQuery"]],
+        response: {
+            title: "MOTD extra data issue in v2-p13",
+            footer: "",
+            body: [
+                "Please make the following change: https://github.com/NamelessMC/Nameless/commit/348fee4abea348e2aaa666134aaba7c73703f984",
+            ],
+        },
+    },
 ]
