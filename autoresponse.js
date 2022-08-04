@@ -708,7 +708,7 @@ module.exports = [
     {
         keywords: [["column", "username", "cannot be null"]],
         response: {
-            title: "Issue with OAuth",
+            title: "Issue with user integrations",
             footer: "",
             body: [
                 "To fix this issue, do the following:",
