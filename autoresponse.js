@@ -51,16 +51,16 @@ module.exports = [
             "title": "Unable to load template file",
             "footer": "",
             "body": [
-               "When you get an error that says \"Unable to load template file:\" `module-name/some-file.tpl` or `some-file.tpl`, it means that either your panel template or your website template (depending on where the error occurs), is missing that module's template file(s).",
-               "",
-               "If you're using the \"DefaultRevamp\" template, the template file(s) for that module should be included in the module's download folder.",
-               "",
-               "For custom templates, with premium templates the module template files should've already been included with the template, if they are not, contact the template author. For free templates, module support is usually pretty shaky, and possibilty for the module support being added is pretty low.",
-               "",
-               "Most panel templates in the resources page at this time don't support most modules, so you should either wait for the support to be added or use the \"Default\" panel template instead.",
-               "",
-               "To force your template to be reset to \"DefaultRevamp\", delete the file `cache/b1ef26a8913c5b4c085921a013f66a13c3687c1c.cache`, and make sure it is enabled and default in the `nl2_templates` MySQL table."
-           ]
+                "When you get an error that says \"Unable to load template file:\" `module-name/some-file.tpl` or `some-file.tpl`, it means that either your panel template or your website template (depending on where the error occurs), is missing that module's template file(s).",
+                "",
+                "If you're using the \"DefaultRevamp\" template, the template file(s) for that module should be included in the module's download folder.",
+                "",
+                "For custom templates, with premium templates the module template files should've already been included with the template, if they are not, contact the template author. For free templates, module support is usually pretty shaky, and possibilty for the module support being added is pretty low.",
+                "",
+                "Most panel templates in the resources page at this time don't support most modules, so you should either wait for the support to be added or use the \"Default\" panel template instead.",
+                "",
+                "To force your template to be reset to \"DefaultRevamp\", delete the file `cache/b1ef26a8913c5b4c085921a013f66a13c3687c1c.cache`, and make sure it is enabled and default in the `nl2_templates` MySQL table."
+            ]
         }
     },
     {
@@ -69,8 +69,8 @@ module.exports = [
             "title": "404 page breaking",
             "footer": "",
             "body": [
-               "This error happens due to an error in the NamelessMC 404 page.",
-               "To fix this, go to core/Classes/Core/Pages.php and on line 20, replace `private array $_active_page;` with `private array $_active_page = [];`."
+                "This error happens due to an error in the NamelessMC 404 page.",
+                "To fix this, go to core/Classes/Core/Pages.php and on line 20, replace `private array $_active_page;` with `private array $_active_page = [];`."
             ]
         }
     },
@@ -78,7 +78,7 @@ module.exports = [
         keywords: [["upload failed, unknown error occured"]],
         response: {
             "title": "Folder is not writeable",
-            "footer" : "",
+            "footer": "",
             "body": [
                 "This is usually caused by the installation folder within the web root (and its subdirectories) not being writable. You will need to modify the permissions recursively of the folder so the process running PHP can write to it.",
                 "",
@@ -214,7 +214,7 @@ module.exports = [
             ]
         }
     },
-        {
+    {
         keywords: [["how", "disable", "captcha"]],
         response: {
             "title": "Disabling captcha",
@@ -742,5 +742,55 @@ module.exports = [
                 "Follow the steps here https://github.com/NamelessMC/Nameless/issues/2973 for 'Issues creating admin account during installer'",
             ],
         },
+    },
+    {
+        keywords: [['lithium', 'help'], ['friends', 'help'], ['chatbox', 'help'], ['staff', 'help']],
+        response: {
+            title: "Xemah • Development Server",
+            footer: "",
+            body: [
+                "Please use the right server: https://discord.gg/ZvhDKav",
+            ],
+        },
+    },
+    {
+        keywords: [['cobalt', 'help'], ['ghost', 'help'], ['rules', 'help']],
+        response: {
+            title: "Coldfire Design Server",
+            footer: "",
+            body: [
+                "Please use the right server: https://discord.gg/5CCku34",
+            ],
+        },
+    },
+    {
+        keywords: [['members', 'help'], ['store', 'help'], ['suggestions', 'help'], ['forms', 'help'], ['donate', 'help'], ['vote', 'help']],
+        response: {
+            title: "Partydragen Server",
+            footer: "",
+            body: [
+                "Please use the right server: https://discord.gg/5CCku34",
+            ],
+        },
+    },
+    {
+        keywords: [['wiki', 'help'], ['faq', 'help'], ['reviews', 'help'], ['frequently asked questions', 'help']],
+        response: {
+            title: "reflexLabs Server",
+            footer: "",
+            body: [
+                "Please use the right server: https://discord.gg/es9hWUCPKN",
+            ],
+        },
+    },
+    {
+        keywords: [['nexus', 'help'], ['widgetpack', 'help'], ['gallery', 'help'], ['iframe', 'help'], ['badges', 'help'], ['rconmc', 'help'], ['monitoring', 'help'], ['mctrade', 'help']],
+        response: {
+            title: "Vertisan Server",
+            footer: "",
+            body: [
+                "Please use the right server: https://discord.gg/RJfCxC2W3e",
+            ],
+        },
     }
-]
+];

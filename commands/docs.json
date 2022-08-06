@@ -1,13 +1,13 @@
 {
-  "title": "NamelessMC Documentation",
-  "footer": "",
-  "body": "",
-  "parameters": [
-    "smtp",
-    "cloudflare",
-    "install",
-    "oath",
-    "friendly-urls",
-    "api"
-  ]
+    "title": "NamelessMC Documentation",
+    "footer": "",
+    "body": "",
+    "parameters": [
+        "smtp",
+        "cloudflare",
+        "install",
+        "oath",
+        "friendly-urls",
+        "api"
+    ]
 }

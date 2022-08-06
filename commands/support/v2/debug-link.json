@@ -1,8 +1,8 @@
 {
-  "title": "Debug Link",
-  "footer": "",
-  "body": [
-    "To speed up the support process, please paste your Debug Link here!\n",
-    "Generate a Debug Link in `StaffCP > Maintenance > Debug Link` (it will be copied to your clipboard)."
-  ]
+    "title": "Debug Link",
+    "footer": "",
+    "body": [
+        "To speed up the support process, please paste your Debug Link here!\n",
+        "Generate a Debug Link in `StaffCP > Maintenance > Debug Link` (it will be copied to your clipboard)."
+    ]
 }

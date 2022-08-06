@@ -2,7 +2,7 @@ const hasGroupRule = (rules, column) => {
     return rules.filter(
         rule => rule[column] !== null
     ).length > 0;
-}
+};
 
 module.exports = [
     // another example...
@@ -11,7 +11,7 @@ module.exports = [
             if (!text.includes("group sync")) {
                 return false;
             }
-            
+
             const errors = (() => {
                 const errors = [];
 
@@ -56,7 +56,7 @@ module.exports = [
                     "Troubleshooting steps for configuring Minecraft Group Sync:\n",
                     ...errors.map(error => `\`*\` ${error}`),
                 ]
-            }
+            };
         }
     }
-]
+];

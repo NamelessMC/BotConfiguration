@@ -1,23 +1,23 @@
 {
-  "title": "NamelessMC Support",
-  "footer": "",
-  "body": "",
-  "parameters": [
-    "v1/favicon",
-    "v1/group-html",
-    "v1/homepage-pic",
-    "v1/news",
-    "v2/discord-widget",
-    "v2/eta",
-    "v2/favicon",
-    "v2/force-https",
-    "v2/friendly-urls",
-    "v2/group-html",
-    "v2/load-template-file",
-    "v2/news-char-limit",
-    "v2/news",
-    "v2/upgrade-v1",
-    "v2/debug-link",
-    "core-config-writable"
-  ]
+    "title": "NamelessMC Support",
+    "footer": "",
+    "body": "",
+    "parameters": [
+        "v1/favicon",
+        "v1/group-html",
+        "v1/homepage-pic",
+        "v1/news",
+        "v2/discord-widget",
+        "v2/eta",
+        "v2/favicon",
+        "v2/force-https",
+        "v2/friendly-urls",
+        "v2/group-html",
+        "v2/load-template-file",
+        "v2/news-char-limit",
+        "v2/news",
+        "v2/upgrade-v1",
+        "v2/debug-link",
+        "core-config-writable"
+    ]
 }
