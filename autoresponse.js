@@ -733,4 +733,14 @@ module.exports = [
             ],
         },
     },
+    {
+        keywords: [['Undefined constant "DEFAULT_LANGUAGE"', 'Undefined constant "MINECRAFT"']],
+        response: {
+            title: "Admin account creation issue in 2.0.0",
+            footer: "",
+            body: [
+                "Follow the steps here https://github.com/NamelessMC/Nameless/issues/2973 for 'Issues creating admin account during installer'",
+            ],
+        },
+    }
 ]
