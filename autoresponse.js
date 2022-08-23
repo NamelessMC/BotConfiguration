@@ -755,5 +755,15 @@ module.exports = [
                 "Follow the steps here https://github.com/NamelessMC/Nameless/issues/2973 for 'Issues creating admin account during installer'",
             ],
         },
-    }
+    },
+    {
+        keywords: [["Config file does not exist"]],
+        response: {
+            title: "Config file does not exist",
+            footer: "",
+            body: [
+                "Please delete the `core/config.php` file if it exists, then restart the installation **in a private/incognito** browser window."
+            ],
+        },
+    },
 ]
