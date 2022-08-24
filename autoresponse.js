@@ -762,7 +762,20 @@ module.exports = [
             title: "Config file does not exist",
             footer: "",
             body: [
-                "Please delete the `core/config.php` file if it exists, then restart the installation **in a private/incognito** browser window."
+                "Please delete the `core/config.php` file if it exists, then restart the installation **in a private/incognito** browser window.",
+            ],
+        },
+    },
+    {
+        keywords: [["Column 'reset_code' cannot be null"]],
+        response: {
+            title: "Column 'reset_code' cannot be null",
+            footer: "",
+            body: [
+                "Run the following query:",
+                "```sql",
+                "ALTER TABLE nl2_users MODIFY reset_code varchar(64) DEFAULT NULL;",
+                "```",
             ],
         },
     },
