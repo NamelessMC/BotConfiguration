@@ -543,10 +543,17 @@ module.exports = [
             title: "Proxy misconfiguration, HTTPS with port 80",
             footer: "",
             body: [
-                "This likely occurs because a proxy is not setting the `X-Forwarded-Port` header properly.",
-                "Also ensure that if you are using Cloudflare (with proxy enabled), the TLS mode is set to \"Full (strict)\""
-            ]
-        }
+                "Ensure that if you are using Cloudflare (with proxy enabled), the TLS mode is set to \"Full (strict)\". It may be set to Flexible which is not secure, as traffic to the web server is unencrypted.",
+                "",
+                "If you are running your own proxy, it needs to send appropriate proxy headers so NamelessMC knows which protocol and port to use. An example for NGINX:",
+                "```",
+                "proxy_set_header X-Forwarded-For       $proxy_add_x_forwarded_for;",
+                "proxy_set_header X-Forwarded-Proto     $scheme;",
+                "proxy_set_header X-Forwarded-Port      $server_port;",
+                "```",
+                "Please note that this configuration should be placed in the **proxy** webserver, not the NamelessMC web server!",
+            ],
+        },
     },
     {
         keywords: [["redirect_uri"], ["redirect_uri_mismatch"]],
