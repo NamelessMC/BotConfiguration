@@ -786,4 +786,14 @@ module.exports = [
             ],
         },
     },
+    {
+        keywords: [["GOAWAY received"]],
+        response: {
+            title: "GOAWAY received",
+            footer: "",
+            body: [
+                "The web server closed the connection early. Did you restart your web server, or was it responding too slowly? If it only happens occasionally, please ignore the message. It is probably the result of temporary web server downtime.",
+            ],
+        },
+    },
 ]
