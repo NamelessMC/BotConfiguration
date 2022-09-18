@@ -686,7 +686,7 @@ module.exports = [
         },
     },
     {
-        keywords: [["key was too long", "767 bytes"]],
+        keywords: [["767 bytes"]],
         response: {
             title: "Specified key was too long; max key length is 767 bytes",
             footer: "",
