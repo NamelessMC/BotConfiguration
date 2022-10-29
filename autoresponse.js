@@ -796,4 +796,14 @@ module.exports = [
             ],
         },
     },
+    {
+        keywords: [["latest version"]],
+        response: {
+            title: "Versioning",
+            footer: "",
+            body: [
+                "Latest is **not** a version. Please give an actual version number. You can find the running version of NamelessMC in the staffcp dashboard and for the plugin by running `/ver NamelessMC`"
+            ]
+        }
+    }
 ]
