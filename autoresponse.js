@@ -796,4 +796,14 @@ module.exports = [
             ],
         },
     },
+    {
+        keywords: [["init", "Undefined constant", "host"]],
+        response: {
+            title: "core/init.php(90): Undefined constant \"host\"",
+            footer: "",
+            body: [
+                "Please apply this change: https://github.com/NamelessMC/Nameless/commit/4905abce181cbdd75b7c0de65128c9c05f9f10a4",
+            ],
+        },
+    },
 ]
