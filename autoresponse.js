@@ -806,4 +806,14 @@ module.exports = [
             ],
         },
     },
+    {
+        keywords: [["There are", "database migrations pending"]],
+        response: {
+            title: "There are database migrations pending",
+            footer: "",
+            body: [
+                "Please manually visit `https://your-website.com/index.php?route=/panel/upgrade` in your web browser."
+            ],
+        },
+    },
 ]
