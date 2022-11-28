@@ -816,4 +816,14 @@ module.exports = [
             ],
         },
     },
+    {
+        keywords: [["Duplicate entry", "core", "name"]],
+        response: {
+            title: "(re-)installing without clearing database",
+            footer: "",
+            body: [
+                "This error happens when you are trying to (re-)install into an existing database. Please clear your database first and then attempt to re-install. You may need to do this in a private/incognito browser window"
+            ]
+        }
+    }
 ]
