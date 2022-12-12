@@ -482,7 +482,7 @@ module.exports = [
             "title": "Translation file not found",
             "footer": "",
             "body": [
-                "Ensure that you don't have any modules/templates installed that are not compatible with pr13. You can remove modules by going to the /modules directory and deleting (or moving) any outdated modules. For templates you can delete them in the /custom/templates directory."
+                "Ensure that you don't have any modules/templates installed that are not compatible with v2.0.0-pr13 or above. You can remove modules by going to the /modules directory and deleting (or moving) any outdated modules. For templates you can delete them in the /custom/templates directory."
             ]
         }
     },
