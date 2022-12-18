@@ -526,10 +526,10 @@ module.exports = [
             title: "Missing API key",
             footer: "",
             body: [
-                "This message has several possible causes:",
+                "NamelessMC has not received an API key. The `Authorization` header is probably being removed by your web server or proxy.",
                 "",
-                "1. Your web server is not passing the Authorization header to NamelessMC. Try adding `CGIPassAuth On` to your `.htaccess` file in the root directory of your NamelessMC files.",
-                "2. Your web server is passing the Authorization header, but in an usual case. Headers should be case insensitive but weren't in v2-pr13. This has been fixed properly for the next version, for now edit `core/classes/Endpoints/KeyAuthEndpoint.php` and 1) replace `$headers = getallheaders();` with `$headers = array_change_key_case(getallheaders(), CASE_LOWER);` and 2) replace `$headers['Authorization']` with `$headers['authorization']` (2 times!)",
+                "1. If you are using an old NamelessMC version, please update. v2-pr13 has some bugs handling the Authorization header.",
+                "2. Contact your hosting provider. They should know what to do if you tell them the `Authorization` header is stripped and not accessible from PHP.",
             ],
         },
     },
