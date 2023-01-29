@@ -825,5 +825,16 @@ module.exports = [
                 "This error happens when you are trying to (re-)install into an existing database. Please clear your database first and then attempt to re-install. You may need to do this in a private/incognito browser window"
             ]
         }
+    },
+    {
+        keywords: [["there are", "migrations files", "not been executed"]],
+        response: {
+            title: "Forcing migrations to run",
+            footer: "",
+            body: [
+                "This error usually occurs if you are trying to update your website but instead of clicking the update button, you reload the page.",
+                "You can fix this by manually visiting `https://your-website.com/index.php?route=/panel/upgrade` in your web browser."
+            ]
+        }
     }
 ]
