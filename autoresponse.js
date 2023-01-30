@@ -494,7 +494,8 @@ module.exports = [
             "title": "Installation issues",
             "footer": "",
             "body": [
-                "This is a known issue with pr13. Please go to https://github.com/NamelessMC/Nameless/issues/2822 and follow the steps mentioned in the \"`nl2_settings` not found during installation\" section",
+                // "This is a known issue with pr13. Please go to https://github.com/NamelessMC/Nameless/issues/2822 and follow the steps mentioned in the \"`nl2_settings` not found during installation\" section",
+                "Please update to version 2.0.3. There are no breaking changes.",
             ]
         }
     },
@@ -530,8 +531,8 @@ module.exports = [
             body: [
                 "NamelessMC has not received an API key. The `Authorization` header is probably being removed by your hosting provider, web server, or a proxy. A few possible ways to fix this issue are listed below:",
                 "",
-                "1. Since v2.0.3, NamelessMC uses a fallback header if the Authorization header is being removed. Update to Nameless v2.0.3 and Nameless-Plugin v3.2.4 and you won't have this issue anymore.",
-                "2. NamelessMC version v2.0.0-pr13 has some bugs related to the Authorization header. Please update to v2.0.3. There are no breaking changes.",
+                "1. (v2.0.0-v2.0.2 only) Update to Nameless v2.0.3 and Nameless-Plugin v3.2.4 and you won't have this issue anymore. Since these versions, the website and plugin will now use a fallback header if the Authorization header is being removed.",
+                "2. (v2.0.0-pr13 only) NamelessMC version v2.0.0-pr13 has some bugs related to the Authorization header. Please update to v2.0.3. There are no breaking changes.",
                 "3. Make sure the .htaccess file exists, and contains the `CGIPassAuth On` rule.",
                 "4. Contact your hosting provider. They should know what to do if you tell them the `Authorization` header is stripped and not accessible from PHP. However, experience shows that many hosting providers will claim that the Authorization header is not being removed, even when it is. We strongly recommend option 1 instead, which will fix the issue without needing cooperation from your hosting provider.",
             ],
@@ -587,7 +588,8 @@ module.exports = [
             title: "Util::determineOrder() broken in v2-pr13",
             footer: "",
             body: [
-                "Replace the contents of core/classes/Core/Util.php with this: https://paste.rkslot.nl/raw/uqacohaqip",
+                // "Replace the contents of core/classes/Core/Util.php with this: https://paste.rkslot.nl/raw/uqacohaqip",
+                "Please update to version 2.0.3. There are no breaking changes.",
             ],
         },
     },
@@ -617,7 +619,8 @@ module.exports = [
             title: "ServerInfoEndpoint validation issue in v2-pr13",
             footer: "",
             body: [
-                "Please replace the contents of the `modules/Core/includes/endpoints/ServerInfoEndpoint.php` file with https://paste.rkslot.nl/raw/xayotubuwe",
+                // "Please replace the contents of the `modules/Core/includes/endpoints/ServerInfoEndpoint.php` file with https://paste.rkslot.nl/raw/xayotubuwe",
+                "Please update to version 2.0.3. There are no breaking changes.",
             ],
         },
     },
@@ -637,7 +640,8 @@ module.exports = [
             title: "Query motd bug in v2-pr13",
             footer: "",
             body: [
-                "Please apply this change: https://github.com/NamelessMC/Nameless/commit/4ab19bfebc2ec3d59d8c7b436b4dcb8de6e51e27",
+                // "Please apply this change: https://github.com/NamelessMC/Nameless/commit/4ab19bfebc2ec3d59d8c7b436b4dcb8de6e51e27",
+                "Please update to version 2.0.3. There are no breaking changes.",
             ],
         },
     },
@@ -647,7 +651,8 @@ module.exports = [
             title: "Latest posts widget issue in v2-pr13",
             footer: "",
             body: [
-                "Please turn off the latests posts widget until v2 is released, or apply this change manually: https://github.com/NamelessMC/Nameless/commit/8ba42f7a839a4f4f5586f8ad8153c44b8034d35d",
+                // "Please turn off the latests posts widget until v2 is released, or apply this change manually: https://github.com/NamelessMC/Nameless/commit/8ba42f7a839a4f4f5586f8ad8153c44b8034d35d",
+                "Please update to version 2.0.3. There are no breaking changes.",
             ],
         },
     },
@@ -705,7 +710,7 @@ module.exports = [
             title: "Empty response with status code 521",
             footer: "",
             body: [
-                "Your website is down. HTTP status code 521 is sent by CloudFlare when it cannot connect to your web server.",
+                "Your website is down. HTTP status code 521 is sent by CloudFlare when it cannot connect to your web server. This error message is not sent by or caused by NamelessMC.",
             ],
         },
     },
@@ -753,7 +758,8 @@ module.exports = [
             title: "MOTD extra data issue in v2-p13",
             footer: "",
             body: [
-                "Please make the following change: https://github.com/NamelessMC/Nameless/commit/348fee4abea348e2aaa666134aaba7c73703f984",
+                // "Please make the following change: https://github.com/NamelessMC/Nameless/commit/348fee4abea348e2aaa666134aaba7c73703f984",
+                "Please update to version 2.0.3. There are no breaking changes.",
             ],
         },
     },
@@ -763,7 +769,8 @@ module.exports = [
             title: "Admin account creation issue in 2.0.0",
             footer: "",
             body: [
-                "Follow the steps here https://github.com/NamelessMC/Nameless/issues/2973 for 'Issues creating admin account during installer'",
+                // "Follow the steps here https://github.com/NamelessMC/Nameless/issues/2973 for 'Issues creating admin account during installer'",
+                "Please install version 2.0.3 instead. There are no breaking changes.",
             ],
         },
     },
@@ -806,7 +813,8 @@ module.exports = [
             title: "core/init.php(90): Undefined constant \"host\"",
             footer: "",
             body: [
-                "Please apply this change: https://github.com/NamelessMC/Nameless/commit/4905abce181cbdd75b7c0de65128c9c05f9f10a4",
+                // "Please apply this change: https://github.com/NamelessMC/Nameless/commit/4905abce181cbdd75b7c0de65128c9c05f9f10a4",
+                "Please update to version 2.0.3. There are no breaking changes.",
             ],
         },
     },
