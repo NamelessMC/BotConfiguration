@@ -465,6 +465,8 @@ module.exports = [
     {
         keywords: [
             ["Base table or view not found", "nl2_phinxlog", "database migrations pending"],
+            ["there are", "migrations files", "not been executed"],
+            ["There are", "database migrations pending"],
         ],
         response: {
             "title": "Upgrader did not run",
@@ -809,16 +811,6 @@ module.exports = [
         },
     },
     {
-        keywords: [["There are", "database migrations pending"]],
-        response: {
-            title: "There are database migrations pending",
-            footer: "",
-            body: [
-                "Please manually visit `https://your-website.com/index.php?route=/panel/upgrade` in your web browser."
-            ],
-        },
-    },
-    {
         keywords: [["Duplicate entry", "core", "name"]],
         response: {
             title: "(re-)installing without clearing database",
@@ -828,15 +820,4 @@ module.exports = [
             ]
         }
     },
-    {
-        keywords: [["there are", "migrations files", "not been executed"]],
-        response: {
-            title: "Forcing migrations to run",
-            footer: "",
-            body: [
-                "This error usually occurs if you are trying to update your website but instead of clicking the update button, you reload the page.",
-                "You can fix this by manually visiting `https://your-website.com/index.php?route=/panel/upgrade` in your web browser."
-            ]
-        }
-    }
 ]
