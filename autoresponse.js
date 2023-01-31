@@ -494,8 +494,7 @@ module.exports = [
             "title": "Installation issues",
             "footer": "",
             "body": [
-                // "This is a known issue with pr13. Please go to https://github.com/NamelessMC/Nameless/issues/2822 and follow the steps mentioned in the \"`nl2_settings` not found during installation\" section",
-                "Please update to version 2.0.3. There are no breaking changes.",
+                "Please go to https://github.com/NamelessMC/Nameless/issues/2822 and follow the steps mentioned in the \"`nl2_settings` not found during installation\" section",
             ]
         }
     },
