@@ -824,7 +824,16 @@ module.exports = [
             footer: "",
             body: [
                 "This error happens when you are trying to (re-)install into an existing database. Please clear your database first and then attempt to re-install. You may need to do this in a private/incognito browser window"
-            ]
-        }
+            ],
+        },
+    },
+    {
+        keywords: [["InvalidPluginException", "Unsupported API version"]],
+        response: {
+            title: "Wrong jar file for your platform",
+            body: [
+                "You have likely installed the wrong jar file for your server platform. Please read the [plugin installation instructions](https://www.spigotmc.org/resources/nameless-plugin-for-v2.59032/).",
+            ],
+        },
     },
 ]
