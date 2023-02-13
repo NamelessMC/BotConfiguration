@@ -385,11 +385,11 @@ module.exports = [
             "body": [
                 "This error means the website hasn't sent a response to an API call in a reasonable amount of time and the connection was aborted. Some possible causes are listed below.",
                 "",
-                "1. Invalid address: if the address is invalid, the plugin or Nameless-Link is never going to get a response",
-                "2. Firewall: if a firewall is blocking requests from the plugin or Nameless-Link, your website will never send a response and as a result, no response will be received. In case of Nameless-Link, you may need to ask your hosting provider to whitelist requests from 135.125.205.25.",
-                "3. Slow web server: ensure the database server and web server are on the same machine, otherwise it might not be able to produce API responses quickly enough due to query latency.",
-                "4. Discord group sync: due to a bug in v2-pr13, Discord group sync can be *extremely* slow, delaying web requests for far too long. Please remove any Discord group sync rules in StaffCP > Configuration > API > Group Sync",
-                "5. Update checker in v2-pr12 and older: In older versions, the API info endpoint sometimes checked for a NamelessMC update, delaying the response. This update check has been removed in v2-pr13.",
+                "1. Discord group sync: due to a bug in v2-pr13, Discord group sync can be *extremely* slow, delaying web requests for far too long. Please remove any Discord group sync rules in StaffCP > Configuration > API > Group Sync",
+                "2. Invalid address: if the address is invalid, the plugin or Nameless-Link is never going to get a response",
+                "3. Firewall: if a firewall is blocking requests from the plugin or Nameless-Link, your website will never send a response and as a result, no response will be received. In case of Nameless-Link, you may need to ask your hosting provider to whitelist requests from 135.125.205.25.",
+                "4. Slow web server: ensure the database server and web server are on the same machine, otherwise it might not be able to produce API responses quickly enough due to query latency.",
+                "5. (only for v2-pr12 and older) One API endpoint endpoint sometimes checked for a NamelessMC update, delaying the response. This update check has been removed in later versions. Please update.",
             ]
         }
     },
