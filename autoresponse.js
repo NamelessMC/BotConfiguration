@@ -378,6 +378,7 @@ module.exports = [
             ["IOException: Connect timed out"],
             ["HttpHeadersTimeoutException"],
             ["couldn't receive headers on time"],
+            ["HttpTimeoutException: request timed out"],
         ],
         response: {
             "title": "Plugin or Nameless-Link times out while waiting for response",
