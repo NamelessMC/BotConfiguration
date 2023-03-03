@@ -400,7 +400,7 @@ module.exports = [
             "title": "API blocked",
             "footer": "",
             "body": [
-                "This error is usually caused by hosting providers blocking access to their api. If you are using a provider like InfinityFree, please switch to a different hosting provider as they completely block access to your sites API.",
+                "This error is usually caused by hosting providers (like InfinityFree) blocking access to the NamelessMC API. Consider switching to a different hosting provider.",
             ]
         }
     },
@@ -424,7 +424,7 @@ module.exports = [
     {
         keywords: [["HTTP ERROR 500"]],
         response: {
-            "title": "webserver error",
+            "title": "Webserver error",
             "footer": "",
             "body": [
                 "It looks like your web server is experiencing issues. Most common causes for this error is having wrong file permissions.",
@@ -529,12 +529,9 @@ module.exports = [
             title: "Missing API key",
             footer: "",
             body: [
-                "NamelessMC has not received an API key. The `Authorization` header is probably being removed by your hosting provider, web server, or a proxy. A few possible ways to fix this issue are listed below:",
+                "NamelessMC has not received an API key. The `Authorization` header is probably being removed by your hosting provider, web server, or a proxy.",
                 "",
-                "1. (v2.0.0-v2.0.2 only) Update to Nameless v2.0.3 and Nameless-Plugin v3.2.4 and you won't have this issue anymore. Since these versions, the website and plugin will now use a fallback header if the Authorization header is being removed.",
-                "2. (v2.0.0-pr13 only) NamelessMC version v2.0.0-pr13 has some bugs related to the Authorization header. Please update to v2.0.3. There are no breaking changes.",
-                "3. Make sure the .htaccess file exists, and contains the `CGIPassAuth On` rule.",
-                "4. Contact your hosting provider. They should know what to do if you tell them the `Authorization` header is stripped and not accessible from PHP. However, experience shows that many hosting providers will claim that the Authorization header is not being removed, even when it is. We strongly recommend option 1 instead, which will fix the issue without needing cooperation from your hosting provider.",
+                "Update to at least Nameless v2.0.3 and Nameless-Plugin v3.2.4 and you won't have this issue anymore. Since these versions, the website and plugin will now use a fallback header if the Authorization header is being removed."
             ],
         },
     },
@@ -834,6 +831,33 @@ module.exports = [
             title: "Wrong jar file for your platform",
             body: [
                 "You have likely installed the wrong jar file for your server platform. Please read the [plugin installation instructions](https://www.spigotmc.org/resources/nameless-plugin-for-v2.59032/).",
+            ],
+        },
+    },
+    {
+        keywords: [["SSLHandshakeException"]],
+        response: {
+            title: "SSLHandshakeException",
+            body: [
+                "Nameless-Plugin or Nameless-Link cannot connect to your site due to an issue with your TLS certificate. You should experience the same issue when visiting the site using a web browser.",
+            ],
+        },
+    },
+    {
+        keywords: [["ClosedChannelException"]],
+        response: {
+            title: "ClosedChannelException",
+            body: [
+                "Your website is down, or it was down temporarily. Does the error keep happening? Can you connect using a web browser? (Without accepting scary security warnings!)",
+            ],
+        },
+    },
+    {
+        keywords: [["Website returned invalid response", "adsense"]],
+        response: {
+            title: "Hosting provider injecting invalid response",
+            body: [
+                "It seems like your hosting provider is blocking the API request, and is returning a page with advertisements. This is a common issue with free hosting providers.",
             ],
         },
     },
