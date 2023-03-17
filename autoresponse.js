@@ -330,12 +330,20 @@ module.exports = [
     {
         keywords: [
             ["Minecraft username is invalid"],
+            ["disable", "minecraft username"],
+            ["bedrock", "username"],
+            ["register", "only", "premium"],
+            ["non-original", "account"],
+            ["register without", "minecraft", "name"],
+            ["bedrock", "create", "account"],
+            ["non-premium", "register"],
+            ["require", "minecraft username"],
         ],
         response: {
-            "title": "Allowing non-premium accounts to register",
+            "title": "Disabling requirement to register with Minecraft Java Edition username",
             "footer": "",
             "body": [
-                "To allow cracked Minecraft accounts to register on your site, go to `StaffCP -> Integrations -> Minecraft -> Minecraft Account Verification` and disable `Force premium Minecraft accounts?`",
+                "To allow users to register without a Minecraft Java Edition username, go to `StaffCP -> Integrations -> Minecraft -> Minecraft Account Verification` and disable `Force premium Minecraft accounts?`",
             ]
         }
     },
