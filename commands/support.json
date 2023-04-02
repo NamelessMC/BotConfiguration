@@ -4,7 +4,6 @@
   "body": "",
   "parameters": [
     "discord-widget",
-    "eta",
     "favicon",
     "force-https",
     "friendly-urls",
@@ -12,7 +11,6 @@
     "load-template-file",
     "news-char-limit",
     "news",
-    "upgrade-v1",
     "debug-link",
     "core-config-writable"
   ]
