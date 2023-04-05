@@ -2,6 +2,6 @@
     "title": "Friendly URLs",
     "footer": "",
     "body": [
-        "In order to use friendly urls on your v2 website, your webserver needs to be properly configured. You can have a look on how to do it over at our documentation at https://docs.namelessmc.com/friendly-urls/"
+        "In order to use friendly urls on your website, your webserver needs to be properly configured. You can have a look on how to do it over at our documentation at https://docs.namelessmc.com/friendly-urls/"
     ]
 }

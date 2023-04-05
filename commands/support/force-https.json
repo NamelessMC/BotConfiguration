@@ -3,7 +3,7 @@
   "title": "Force HTTPS",
   "footer": "",
   "body": [
-    "In order to force HTTPS on your v2 website you have to have a valid SSL certificate.",
+    "In order to force HTTPS on your website you have to have a valid SSL certificate.",
     "To check if your SSL certificate is valid you can go to `https://yoursite.com` and check if it says \"Secure Connection\" when clicking on the lock in the url bar.",
     "",
     "Force HTTPS does not work with Cloudflare \"Flexible\" SSL, if you do not have a valid SSL certificate on your web host or a vps, then you can force HTTPS with Cloudflare \"Flexible\" SSL in Cloudflare \"Crypto\" section.",

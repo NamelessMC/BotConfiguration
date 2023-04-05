@@ -2,7 +2,7 @@ module.exports = [
     {
         keywords: [["how", "upload", "favicon"]],
         response: {
-            "title": "Adding a favicon to v2",
+            "title": "Adding a favicon to",
             "footer": "",
             "body": [
                 "1. Make sure your favicon is named `favicon.ico` (note the .ico format - for example don't rename a .png to a .ico)",
@@ -21,7 +21,7 @@ module.exports = [
             "title": "Friendly URLs",
             "footer": "To disable friendly URLs, go to `core/config.php` and change \"friendly\" from \"true\" to \"false\".",
             "body": [
-                "In order to use friendly URLs on your v2 website, your webserver needs to be properly configured. You can have a look on how to do it over at our documentation at https://docs.namelessmc.com/friendly-urls/"
+                "In order to use friendly URLs on your website, your webserver needs to be properly configured. You can have a look on how to do it over at our documentation at https://docs.namelessmc.com/friendly-urls/"
             ]
         }
     },
@@ -522,13 +522,7 @@ module.exports = [
         response: {
             title: "Invalid API key",
             footer: "",
-            body: [
-                "This message has several possible causes:",
-                "",
-                "1. Your API key is invalid",
-                "2. (v2.0.0-pr13 only) Your web server is not passing the Authorization header to NamelessMC. Try adding `CGIPassAuth On` to your `.htaccess` file in the root directory of your NamelessMC files.",
-                "3. (v2.0.0-pr13 only) Your web server is passing the Authorization header, but in an usual case. Headers should be case insensitive but weren't in v2-pr13. This has been fixed properly for the next version, for now edit `core/classes/Endpoints/KeyAuthEndpoint.php` and 1) replace `$headers = getallheaders();` with `$headers = array_change_key_case(getallheaders(), CASE_LOWER);` and 2) replace `$headers['Authorization']` with `$headers['authorization']` (2 times!)",
-            ],
+            body: "This message means your API key is invalid"
         },
     },
     {
@@ -645,8 +639,7 @@ module.exports = [
             title: "Query motd bug in v2-pr13",
             footer: "",
             body: [
-                // "Please apply this change: https://github.com/NamelessMC/Nameless/commit/4ab19bfebc2ec3d59d8c7b436b4dcb8de6e51e27",
-                "Please update to version 2.0.3. There are no breaking changes.",
+                "Please update to the latest version of NamelessMC. There are no breaking changes.",
             ],
         },
     },
@@ -656,8 +649,7 @@ module.exports = [
             title: "Latest posts widget issue in v2-pr13",
             footer: "",
             body: [
-                // "Please turn off the latests posts widget until v2 is released, or apply this change manually: https://github.com/NamelessMC/Nameless/commit/8ba42f7a839a4f4f5586f8ad8153c44b8034d35d",
-                "Please update to version 2.0.3. There are no breaking changes.",
+                "Please update to the latest version of NamelessMC. There are no breaking changes.",
             ],
         },
     },
