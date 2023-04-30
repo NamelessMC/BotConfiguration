@@ -431,7 +431,7 @@ module.exports = [
         }
     },
     {
-        keywords: [["HTTP ERROR 500"]],
+        keywords: [["HTTP ERROR 500"], ["server error 500"]],
         response: {
             "title": "Webserver error",
             "footer": "",
