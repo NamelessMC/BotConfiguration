@@ -828,7 +828,6 @@ module.exports = [
         keywords: [["Duplicate entry", "core", "name"]],
         response: {
             title: "(re-)installing without clearing database",
-            footer: "",
             body: [
                 "This error happens when you are trying to (re-)install into an existing database. Please clear your database first and then attempt to re-install. You may need to do this in a private/incognito browser window"
             ],
@@ -867,6 +866,16 @@ module.exports = [
             title: "Hosting provider injecting invalid response",
             body: [
                 "It seems like your hosting provider is blocking the API request, and is returning a page with advertisements. This is a common issue with free hosting providers.",
+            ],
+        },
+    },
+    {
+        keywords: [["Integrity constraint violation", "user_id", "null"]],
+        response: {
+            title: "Integrity constraint violation: Column 'user_id' cannot be null",
+            footer: "If you are not using Cobalt, ignore this message.",
+            body: [
+                "This is likely an issue with the Cobalt template. Please wait for the template author to fix this bug.",
             ],
         },
     },
