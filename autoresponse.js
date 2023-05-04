@@ -395,11 +395,12 @@ module.exports = [
                 "This error means the website hasn't sent a response to an API call in a reasonable amount of time and the connection was aborted. Some possible causes are listed below.",
                 "",
                 "1. If this only happens occasionaly and commands work fine, it is likely that your website or internet connection was down for a brief moment. In that case you should ignore the warning.",
-                "2. Increase the timeout to PT10S (in main.yaml) if it is currently set to a lower value.",
-                "3. Due to several bugs in Discord group sync, it can delay web requests for far too long. This will be fixed in 2.1.0. For now, please remove any Discord group sync rules in StaffCP > Configuration > API > Group Sync.",
-                "4. If your website is not reachable at all, Nameless-Plugin or Nameless-Link is not going to get a response in time and this error may appear. Perhaps you entered an incorrect API URL? Or maybe a firewall is blocking requests?",
-                "5. Ensure the database server and web server are on the same machine, otherwise it might not be able to produce API responses quickly enough due to query latency.",
-                "6. (only for v2-pr12 and older) One API endpoint endpoint sometimes checked for a NamelessMC update, delaying the response. This update check has been removed in later versions. Please update.",
+                "2. Increase the timeout to PT10S (in main.yaml), if it is currently set to a lower value.",
+                "3. If your website is not reachable at all, Nameless-Plugin or Nameless-Link is not going to get a response in time and this error may appear. Perhaps you entered an incorrect API URL? Or maybe a firewall is blocking requests?",
+                "4. Ensure the database server and web server are on the same machine, otherwise it might not be able to produce API responses quickly enough due to query latency.",
+                "5. (only for v2.0.3) Due to several bugs in Discord group sync, it can delay web requests for far too long. Please update to v2.1.0, or remove all Discord group sync rules in StaffCP > Configuration > API > Group Sync.",
+                "6. (only for v2-pr13, v2.0.0, v2.0.1, v2.0.2) Update to v2.0.3, there are no breaking changes.",
+                "7. (only for v2-pr12 and older) One API endpoint endpoint sometimes checked for a NamelessMC update, delaying the response. This update check has been removed in later versions. Please update.",
             ]
         }
     },
