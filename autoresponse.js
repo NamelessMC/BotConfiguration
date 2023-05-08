@@ -876,7 +876,7 @@ module.exports = [
             title: "Integrity constraint violation: Column 'user_id' cannot be null",
             footer: "If you are not using Cobalt, ignore this message.",
             body: [
-                "This is likely an issue with the Cobalt template. Please wait for the template author to fix this bug.",
+                "This is likely an issue with the Cobalt template. Please update to the latest version.",
             ],
         },
     },
