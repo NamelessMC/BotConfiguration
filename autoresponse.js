@@ -835,11 +835,14 @@ module.exports = [
         },
     },
     {
-        keywords: [["InvalidPluginException", "Unsupported API version"]],
+        keywords: [
+            ["InvalidPluginException", "Unsupported API version"]
+            ["NoSuchMethodError", "getOnlinePlayers"]
+        ],
         response: {
             title: "Wrong jar file for your platform",
             body: [
-                "You have likely installed the wrong jar file for your server platform. Please read the [plugin installation instructions](https://www.spigotmc.org/resources/nameless-plugin-for-v2.59032/).",
+                "You have likely installed the wrong jar file for your server platform. Please read the [plugin installation instructions](https://www.spigotmc.org/resources/nameless-plugin-for-v2.59032/) including the [platforms wiki page](https://github.com/NamelessMC/Nameless-Plugin/wiki/Platforms).",
             ],
         },
     },
