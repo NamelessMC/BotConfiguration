@@ -672,7 +672,7 @@ module.exports = [
             title: "Group sync: 'In-game plugin not set up'",
             footer: "",
             body: [
-                "Ensure the 'server data sender' is enabled in your plugin config file, and `server-id` is configured correctly.",
+                "Please see the 'group sync' section of the [plugin troubleshooting wiki](https://docs.namelessmc.com/en/integrations/plugin-troubleshooting).",
             ],
         },
     },
