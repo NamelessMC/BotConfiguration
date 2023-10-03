@@ -836,8 +836,9 @@ module.exports = [
     },
     {
         keywords: [
-            ["InvalidPluginException", "Unsupported API version"]
-            ["NoSuchMethodError", "getOnlinePlayers"]
+            ["InvalidPluginException", "Unsupported API version"],
+            ["NoSuchMethodError", "getOnlinePlayers"],
+            ["NoSuchMethodError", "snakeyaml"],
         ],
         response: {
             title: "Wrong jar file for your platform",
