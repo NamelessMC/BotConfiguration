@@ -852,7 +852,7 @@ module.exports = [
         response: {
             title: "SSLHandshakeException",
             body: [
-                "Nameless-Plugin or Nameless-Link cannot connect to your site due to an issue with your TLS certificate. You should experience the same issue when visiting the site using a web browser.",
+                "Nameless-Plugin or Nameless-Link cannot connect to your site due to an issue with your TLS certificate. Please ensure you have installed a valid **full chain** certificate on your web server. For example, if you're using Certbot, use 'fullchain.pem' not 'cert.pem'.",
             ],
         },
     },
