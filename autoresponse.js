@@ -884,4 +884,18 @@ module.exports = [
             ],
         },
     },
+    {
+        keywords: [["protocol_version"]],
+        response: {
+            title: "SSLHandshakeException: Received fatal alert: protocol_version",
+            footer: "",
+            body: [
+                "This error means that the TLS version required by your website is not supported by the Java client. Most commonly, this error occurs when your website supports TLS 1.3 only.",
+                "",
+                "The Nameless Java API enables support for TLS 1.2 and TLS 1.3. However, support for these versions depend on your version of Java and OpenSSL.",
+                "",
+                "Please ensure you have installed the latest available update for your Java version, and that your operating system is up-to-date. Older operating system versions may include an older OpenSSL library version, without TLS 1.3 support."
+            ],
+        },
+    },
 ]
