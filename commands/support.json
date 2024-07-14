@@ -13,6 +13,7 @@
     "news",
     "upgrade-v1",
     "debug-link",
-    "core-config-writable"
+    "core-config-writable",
+    "pterodactyl"
   ]
 }

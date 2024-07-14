@@ -1,0 +1,8 @@
+{
+    "title": "Hosting in Pterodactyl",
+    "footer": "",
+    "body": [
+      "Hosting in Pterodactyl is not supported and Pterodactyl was never meant for webhosting.",
+      "You should host NamelessMC alongside Pterodactyl, you can follow [this guide](https://docs.namelessmc.com/installation-vps) on how to do so."
+    ]
+}
