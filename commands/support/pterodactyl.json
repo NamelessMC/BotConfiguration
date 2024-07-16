@@ -1,0 +1,10 @@
+{
+    "title": "Hosting in Pterodactyl",
+    "footer": "",
+    "body": [
+      "Hosting in Pterodactyl is not supported and Pterodactyl was never meant for webhosting.",
+      "You should host NamelessMC alongside Pterodactyl, you can follow [this guide](https://docs.namelessmc.com/installation-vps) on how to do so.",
+      "",
+      "If you are looking to host NamelessMC in a Docker container, see [Nameless-Docker](https://github.com/NamelessMC/Nameless-Docker)"
+    ]
+}
