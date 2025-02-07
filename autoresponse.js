@@ -898,4 +898,14 @@ module.exports = [
             ],
         },
     },
+    {
+        keywords: [["nl hybrid"]],
+        response: {
+            title: "Wrong discord server",
+            footer: "",
+            body: [
+                "Hey there! We are the support discord for the (NamelessMC forum software)[https://github.com/namelessmc/nameless]. **NOT** the support discord for NL Hybrid. We are not associated with them in any way or form. Make sure you spelled their invite correctly!"
+            ]
+        }
+    }
 ]
